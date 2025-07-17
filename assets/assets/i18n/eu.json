@@ -1,0 +1,767 @@
+{
+  "authentication": {
+    "login": {
+      "title": "Bienvenido de nuevo",
+      "email_text_field": {
+        "title": "E-mail",
+        "error": "Formato de e-mail incorrecto(ej. ejemplo@ejemplo.com)"
+      },
+      "password_text_field": {
+        "title": "Contraseña",
+        "error": "Revisa los requisitos de seguridad de la contraseña"
+      },
+      "remember_login_checkbox": {
+        "title": "Recordarme en este dispositivo"
+      },
+      "login_button": {
+        "title": "Iniciar sesión"
+      },
+      "forget_label_button": {
+        "title": "¿Olvidaste tu contraseña?"
+      },
+      "sign_up_label": {
+        "question": "¿Aún no tienes cuenta?",
+        "button": "Regístrate"
+      },
+      "success_dialog": {
+        "title": "Ingresando como usuario",
+        "message": "Bienvenido",
+        "button": "Continuar"
+      },
+      "invalid_credentials_dialog": {
+        "title": "Error",
+        "message": "Las credenciales proporcionadas son incorrectas",
+        "button": "Volver"
+      },
+      "failed_dialog": {
+        "title": "Error",
+        "message": "Ha ocurrido un error. Por favor inténtalo más tarde",
+        "button": "Continuar"
+      },
+      "user_waiting_for_approval": {
+        "title": "Validación pendiente",
+        "body": "Se ha enviado un correo electrónico a la dirección que administra la cuenta a la que te has intentado vincular. Cuando se valide la vinculación podrás acceder con tus credenciales. Si tienes algún problema puedes enviarnos un e-mail a: ",
+        "body_without_email": "Se ha enviado un correo electrónico a la dirección que administra la cuenta a la que te has intentado vincular. Cuando se valide la vinculación podrás acceder con tus credenciales.",
+        "back_button": "Aceptar"
+      }
+    },
+    "register": {
+      "aeat": {
+        "invalid": {
+          "title": "Datos no validados",
+          "body": "No es posible dar de alta este usuario debido a que los datos fiscales(NIF + Nombre) no han sido encontrados o no coinciden al completo con la información registrada en la AEAT. Puedes revisar los datos y volver a intentarlo o si tienes algún problema puedes enviarnos un e-mail a ",
+          "accept_button": "Aceptar"
+        },
+        "error": {
+          "title": "No se puede continuar",
+          "body": "Debido a un problema técnico no es posible validar los datos de usuario. Por favor inténtalo de nuevo en unos minutos. Si el problema persiste te agradecemos nos envíes un correo a ",
+          "accept_button": "Aceptar"
+        }
+      },
+      "validation": {
+        "title": "Verificación de correo electrónico",
+        "body": "Te hemos enviado un correo a la dirección usada para el registro con un código de validación. Introduce el código a continuación para proceder con el registro. Si tienes algún problema puedes enviarnos un correo a ",
+        "fields": {
+          "email": "Email",
+          "code": "Código de verificación"
+        },
+        "resend_message": "Tiempo de espera para reenviar código: ",
+        "resend": "Reenviar código",
+        "button": "Verificar correo",
+        "invalid_otp": {
+          "title": "Código inválido",
+          "body": "El código ingresado no es correcto, intente nuevamente.",
+          "button": "Volver"
+        },
+        "resend_error": {
+          "title": "Ha ocurrido un error reenviando el código de verificación"
+        },
+        "resend_success": {
+          "title": "El código de verificación ha sido reenviado con éxito"
+        }
+      },
+      "image": {
+        "menu": {
+          "title": "Escoja una opción",
+          "camera": "Tomar foto",
+          "gallery": "Abrir la galeria",
+          "cancel": "Cancelar"
+        }
+      },
+      "required_fields": {
+        "title": "Los campos marcados con * son obligatorios"
+      },
+      "cif_nif": {
+        "title": "CIF/NIF/NRT",
+        "error": "El NIF introducido no tiene una estructura correcta"
+      },
+      "email": {
+        "title": "E-mail",
+        "error": "Formato de e-mail incorrecto(ej. ejemplo@ejemplo.com)"
+      },
+      "confirmation_email": {
+        "title": "Confirmación de E-mail",
+        "error": "Las direcciones E-mail no coinciden"
+      },
+      "password": {
+        "title": "Contraseña",
+        "error": "Revisa los requisitos de seguridad de la contraseña",
+        "requirements": {
+          "password_length": "La contraseña debe tener más de 8 caracteres y contener:",
+          "lowercase": "1 letra minúscula",
+          "uppercase": "1 letra mayúscula",
+          "number": "1 número",
+          "special_char": "1 carácter especial (ej. @#$%^&+=!*-_()<>?/\\)"
+        },
+        "change": {
+          "title": "Restablece tu contraseña",
+          "body_1": "Escribe tu dirección de email a continuación y te enviaremos un email con las instrucciones sobre cómo crear una nueva contraseña.",
+          "change_password": "Restablecer contraseña"
+        }
+      },
+      "continue": {
+        "title": "Continuar"
+      },
+      "account_created": {
+        "title": "¿Ya tienes cuenta? "
+      },
+      "login": {
+        "title": "Inicia sesión"
+      },
+      "error_dialog": {
+        "title": "No se ha podido crear tu cuenta",
+        "body": "Debido a un problema técnico no hemos podido crear tu cuenta. Por favor, inténtalo de nuevo en unos minutos o envíanos un e-mail a: ",
+        "button": "Volver"
+      },
+      "no_mail_dialog": {
+        "title": "Nuevo usuario",
+        "body": "Ha ocurrido un error al crear el nuevo usuario. No podemos comprobar la dirección de correo. Para ayudarte puedes enviarnos un correo a ",
+        "accept_button": "Aceptar"
+      },
+      "no_billable_dialog": {
+        "title": "E-mail ya asignado",
+        "body": "La dirección de e-mail que has introducido ya está asignada a un cliente con datos distintos a los introducidos. Puedes cancelar e intentar introducir los datos correctos, continuar con el registro de un nuevo cliente o enviarnos un correo a ",
+        "accept_button": "Nuevo cliente",
+        "cancel_button": "Cancelar"
+      },
+      "billable_dialog": {
+        "title": "E-mail ya asignado",
+        "body": "La dirección de e-mail que has introducido está asignada a un cliente con datos distintos a los introducidos. Puedes cancelar e intentar introducir los datos correctos, continuar con el registro de un nuevo cliente o enviarnos un correo a ",
+        "accept_button": "Nuevo cliente",
+        "cancel_button": "Cancelar"
+      },
+      "name": {
+        "title": "Nombre",
+        "error": "Introduce un nombre válido"
+      },
+      "address": {
+        "title": "Dirección",
+        "error": "Introduce una dirección válida"
+      },
+      "zip_code": {
+        "title": "Código postal",
+        "error": "Introduce un código postal válido"
+      },
+      "population": {
+        "title": "Población",
+        "error": "Introduce una población válida"
+      },
+      "province": {
+        "title": "Provincia",
+        "error": "Introduce una provincia válida"
+      },
+      "country": {
+        "title": "País"
+      },
+      "phone": {
+        "title": "Teléfono",
+        "error": "Introduce un teléfono válido"
+      },
+      "cellphone": {
+        "title": "Teléfono móvil",
+        "error": "Introduce un teléfono móvil válido"
+      },
+      "tos_checkbox": {
+        "title": "Al enviar tus datos aceptas la ",
+        "privacy_policy": "política de privacidad ",
+        "connector": "y los ",
+        "terms_of_use": "términos del servicio"
+      },
+      "join_us": {
+        "title": "Únete"
+      },
+      "user_already_registered_dialog": {
+        "title": "Usuario ya existente",
+        "title2": "Cliente ya existente",
+        "body": "Los datos que has introducido ya existen en la gestión de usuarios, ¿Quieres recuperar la contraseña de esta cuenta? Si tienes problemas puedes ponerte en contacto con nosotros enviándonos un e-mail a: ",
+        "body2": "Los datos que has introducido ya existen en la gestión de clientes, ¿Quieres vincular el usuario a los datos ya existentes? Si tienes problemas puedes ponerte en contacto con nosotros enviándonos un e-mail a: ",
+        "recover_password_button": "Recuperar contraseña",
+        "back_button": "Volver"
+      },
+      "user_unapproved_dialog": {
+        "title": "Usuario aún no aprobado por administrador",
+        "body": "Los datos que has introducido corresponden a un usuario que aún no ha sido aprobado por un administrador, comuníquese con el administrador o inténtelo más tarde. ",
+        "back_button": "Volver"
+      },
+      "link": {
+        "link_account": "Vincular cuenta",
+        "dialog": {
+          "title": "Vinculación de cliente",
+          "description": "Se ha enviado un correo electrónico al administrador de tu cuenta para que pueda confirmarse la vinculación. Una vez realizada la vinculación podrás acceder con tus credenciales. Si tienes problemas puedes ponerte en contacto con nosotros enviándonos un e-mail a ",
+          "button": "OK"
+        }
+      }
+    },
+    "password_recovery": {
+      "title": "Recuperación de contraseña",
+      "description": "Te hemos enviado un correo a la dirección indicada con un código de validación. Introduce tu nueva contraseña y el código enviado a continuación para proceder con el cambio de contraseña. Si tienes algún problema puedes enviarnos un correo a ",
+      "email": "Correo",
+      "password": {
+        "new": "Nueva contraseña",
+        "requirements": {
+          "title": "Requerimientos de la nueva contraseña",
+          "password_length": "La contraseña debe tener más de 8 caracteres y contener:",
+          "lowercase": "1 letra minúscula",
+          "uppercase": "1 letra mayúscula",
+          "number": "1 número",
+          "special_char": "1 carácter especial (ej. @#$%^&+=!*-_()<>?/\\)"
+        },
+        "error": "Revisa los requisitos de seguridad de la contraseña"
+      },
+      "confirmation": {
+        "title": "Confirme su nueva contraseña",
+        "error": "Las contraseñas no coinciden"
+      },
+      "otp": {
+        "title": "Código de verificación",
+        "error": "Código no válido"
+      },
+      "button": {
+        "change": {
+          "title": "Cambiar contraseña"
+        },
+        "resend": {
+          "title": "Reenviar código"
+        }
+      },
+      "dialog": {
+        "success": {
+          "title": "Se ha cambiado la contraseña con éxito"
+        },
+        "error": {
+          "title": "Ha ocurrido un error cambiando la contraseña"
+        },
+        "invalid_otp": {
+          "title": "El código es incorrecto"
+        },
+        "user_not_found": {
+          "title": "Usuario no encontrado",
+          "body": "La dirección de correo introducida no ha sido encontrada en nuestro sistema. Puedes registrarte como usuario o si tienes algún problema puedes enviarnos un e-mail a: ",
+          "button": "Aceptar"
+        }
+      }
+    }
+  },
+  "configuration": {
+    "failed_dialog": {
+      "title": "Error conectándose al servidor",
+      "message": "No se ha podido comunicar con el servidor. por favor, reinicie la aplicación",
+      "button": "Salir"
+    }
+  },
+  "welcome": {
+    "title": "Bienvenido",
+    "view": {
+      "login_button": "Iniciar sesión",
+      "register_button": "Regístrate",
+      "login_guest_button": "Acceder como invitado"
+    },
+    "dialog": {
+      "login_guest_message": "Algunas funciones no van a estar disponibles. Para tener acceso a todo el contenido, por favor, inicia sesión",
+      "register_confirm": "¿Quieres registrarte?",
+      "creation_disabled_message_1": "Para proceder con el registro, por favor, ponte en contacto con: ",
+      "creation_disabled_message_2": "En caso de que ya estés registrado y quieras vincular tu cuenta, presiona sobre la opción de vincular.",
+      "continue_button": "Continuar",
+      "accept_button": "Aceptar",
+      "link_button": "Vincula tu cuenta"
+    }
+  },
+  "coupons": {
+    "title": "Mis cupones",
+    "dropdown": {
+      "title": "Establecimiento",
+      "hint_text": "Seleccionar establecimientos: ",
+      "all": "Todos"
+    },
+    "filters": {
+      "title": "Filtrar el tipo de cupón: ",
+      "refund": "Cheque",
+      "amount": "Importe",
+      "promotional": "Promoción",
+      "wash": "Lavado"
+    },
+    "summary": {
+      "establishment": "Establecimiento",
+      "amount": "Importe",
+      "promotion": "Promoción",
+      "wash_product": "Producto",
+      "issue_date": "Emisión",
+      "expiration_date": "Caducidad"
+    },
+    "refund": {
+      "detail": {
+        "title": "Cheque devolución",
+        "type": "Tipo",
+        "amount": "Importe",
+        "promotion": "Promoción",
+        "wash_product": "Nombre del producto lavado",
+        "issue_date": "Emisión",
+        "expiration_date": "Caducidad",
+        "establishment": "Establecimiento",
+        "description": "Aquí tienes tu cheque devolución, puedes usar el cupón en nuestros terminales de pago."
+      }
+    },
+    "amount": {
+      "detail": {
+        "title": "Cupón de importe",
+        "type": "Tipo",
+        "amount": "Importe",
+        "issue_date": "Emisión",
+        "expiration_date": "Caducidad",
+        "establishment": "Establecimiento"
+      }
+    },
+    "promotional": {
+      "detail": {
+        "title": "Cupón promocional",
+        "type": "Tipo",
+        "description": "Promoción",
+        "issue_date": "Emisión",
+        "expiration_date": "Caducidad",
+        "establishment": "Establecimiento"
+      }
+    },
+    "wash": {
+      "detail": {
+        "title": "Cupón de lavado",
+        "type": "Tipo",
+        "description": "Producto",
+        "issue_date": "Emisión",
+        "expiration_date": "Caducidad",
+        "establishment": "Establecimiento"
+      }
+    },
+    "code": {
+      "title": "Código"
+    }
+  },
+  "messages": {
+    "title": "Mis mensajes",
+    "filter": {
+      "sort": {
+        "title": "Ordenar por:",
+        "newest": "Más recientes",
+        "oldest": "Más antiguos"
+      },
+      "status": {
+        "title": "Filtrar por:",
+        "all": "Todos",
+        "read": "Leídos",
+        "unread": "No leídos"
+      }
+    },
+    "empty": {
+      "title": "Aún no tienes mensajes",
+      "body": "Cuando empieces a recibir mensajes, aparecerán aquí."
+    },
+    "detail": {
+      "button": "Eliminar"
+    },
+    "dialog": {
+      "title": "Eliminar mensaje",
+      "body": "¿Estás seguro de que quieres eliminar el mensaje? Una vez eliminado no podrás recuperarlo.",
+      "button": {
+        "cancel": "Cancelar",
+        "delete": "Eliminar"
+      }
+    }
+  },
+  "check_availability": {
+    "dialogs": {
+      "user_locked": {
+        "title": "Usuario bloqueado",
+        "body": "Las credenciales que estás usando han sido bloqueadas por un usuario administrador, puedes intentar contactar con dicho usuario para que te las desbloquee. Si tienes problemas puedes ponerte en contacto con nosotros enviándonos un e-mail a: ",
+        "btn_ok": "Ok"
+      }
+    }
+  },
+  "force_update": {
+    "dialogs": {
+      "force_update": {
+        "title": "Actualización obligatoria",
+        "body": "Te agradecemos ir a la tienda de tu smartphone y actualizar la aplicación."
+      }
+    }
+  },
+  "company_was_disabled": "Compañía desactivada!",
+  "communication_issues": "Problemas de comunicación",
+  "email": "Email",
+  "password": "Contraseña",
+  "keep_logged": "No cerrar sesión",
+  "accept": "Aceptar",
+  "forgot_password": "¿Olvidaste tu contraseña?",
+  "forgot_password_message": "Por favor,  para cambiar la contraseña contacta con: ",
+  "bad_credentials": "¡Error!, Usuario o contraseña incorrecto",
+  "invalid_email": "Introduce un email válido",
+  "register_message": "Para proceder con el registro, por favor, ponte en contacto con: ",
+  "search": "Buscar",
+  "continue": "Continuar",
+  "login_to_use": "Identifícate para poder usar esta opción",
+  "close_session": "Cerrar sesión",
+  "close_session_message": "¿Estás seguro que deseas abandonar la aplicación?",
+  "yes": "Si",
+  "no": "No",
+  "password_length": "La contraseña es muy corta",
+  "logged_as_user": "Ingresando como usuario",
+  "login_failed": "Inicio de sesión fallido",
+  "invalid_credentials": "Por favor, ingrese email y contraseña válidos",
+  "forgot_password_title": "Olvidé mi contraseña",
+  "guest_users": "Identifícate para usar esta función",
+  "logout": "Cerrar sesión",
+  "alvic_user": "Usuario Alvic",
+  "my_cards": "Mis tarjetas",
+  "fuel_type": "Tipo de combustible",
+  "fuel_station_brand": "Marca gasolineras",
+  "mini_market": "Mini market",
+  "eess_service": "EESS con servicio",
+  "restaurant": "Restaurante",
+  "automatic_wash": "Lavado automático",
+  "manual_wash": "Lavado manual",
+  "water_air": "Aire y agua",
+  "wc": "Wc",
+  "no_search_results": "No se han encontrado resultados para esta búsqueda.",
+  "card_type": "Tarjeta: ",
+  "card_type_vehicle": "Vehículo",
+  "card_type_driver": "Conductor",
+  "card_type_client": "Cliente",
+  "quit_app": "Abandonar",
+  "invalid_token_title": "Token invalido",
+  "invalid_token_message": "Token invalido, por favor ingrese con sus credenciales",
+  "car_plate": "Matrícula ",
+  "car_description": "Descripción: ",
+  "zip_code": "Código postal",
+  "province": "Población",
+  "logout_message": "Estás a punto de cerrar tu sesión, tendrás que iniciar sesión nuevamente si deseas usar todas las funciones. ¿Estás seguro?",
+  "company_blocked": "Esta compañía se encuentra fuera de servicio, por favor, póngase en contacto con: ",
+  "no_server_connection_title": "Problema de conexión",
+  "no_server_connection": "Error al conectar con el servidor, intente más tarde. Si el problema persiste póngase en contacto con: ",
+  "sorry_for_inconvenience": "Disculpe las molestias.",
+  "no_internet_connection": "No se pudo conectar al servidor. Por favor, revisa tu conexión a internet e intenta nuevamente.",
+  "retry": "Reintentar",
+  "account_used": "Estas credenciales pertenecen a uno o más clientes, por favor, póngase en contacto con:",
+  "if_problem_persists": "Si el problema persiste, por favor, póngase en contacto con:",
+  "no_config_found": "Lo sentimos, no hay una configuración disponible para esta compañía.",
+  "anonymous_user": "Usuario anónimo",
+  "terms_of_service": "Términos de servicio",
+  "privacy_policy": "Política de privacidad",
+  "and": "y",
+  "cannot_launch_url": "El sitio no está disponible temporalmente, inténtelo más tarde.",
+  "loading_icon": "Icono de carga",
+  "company_icon": "Icono de la compañía",
+  "login_form": "Formulario de inicio de sesión",
+  "login_form_email": "Entrada de texto de email",
+  "login_form_password": "Entrada de texto de contraseña",
+  "login_form_login_button": "Botón de inicio de sesión",
+  "login_form_register_button": "Botón de información de registro",
+  "login_form_login_guest": "Botón de inicio de sesión invitado",
+  "open_drawer": "Abrir menú desplegable",
+  "show_stations_as_list": "Mostrar estaciones en lista",
+  "search_stations": "Entrada de texto para buscar estaciones",
+  "map": "Mapa",
+  "stations_list": "Lista de estaciones",
+  "drawer": "Menú lateral",
+  "logout_button": "Botón de cierre de sesión",
+  "cards_section_button": "Botón de sección de tarjetas",
+  "station_detail": "Detalle de estación",
+  "bottom_navigation_bar": "Barra de navegación inferior",
+  "cards_slider_section": "Sección de tarjetas",
+  "card": "Tarjeta",
+  "empty_card_list": "Aún no tienes tarjetas",
+  "no_results_search": "No se han encontrado resultados para esta búsqueda",
+  "button_back": "Atrás",
+  "wrong_pin": "PIN incorrecto",
+  "wrong_pin_message": "El PIN no pudo ser verificado",
+  "search_card": "Buscar tarjeta",
+  "text_filter_card_type": "Filtrar el tipo de tarjeta:",
+  "card_filter_customer": "Cliente",
+  "card_filter_driver": "Conductor",
+  "card_filter_vehicle": "Vehículo",
+  "card_detail": "Detalle de la tarjeta",
+  "card_delete": "Eliminar tarjeta",
+  "my_coupons": "Mis cupones",
+  "delete": "Eliminar",
+  "card_confirm_delete": "¿Estás seguro de que quieres eliminar tu tarjeta?",
+  "card_delete_description": "Eliminarla significa que no podrás utilizar esta tarjeta sin agregarla de nuevo.",
+  "card_delete_confirmation": "Tu tarjeta ha sido eliminada",
+  "cancel": "Cancelar",
+  "error": "Error",
+  "station_button_label": "Ver lista",
+  "map_button_label": "Ver mapa",
+  "opened_until": "Abierto hasta",
+  "empty_card_list_description_add": "Utiliza el botón inferior para añadir tarjetas.",
+  "empty_card_list_description": "Si necesitas añadir una tarjeta puedes ponerte en contacto con: ",
+  "no_gps": "No se puede iniciar la navegación debido a que no se dispone de aplicación de navegación GPS.",
+  "no_apps": "No esposible abrir una aplicación para ",
+  "profile": {
+    "title": "Perfil",
+    "view": {
+      "welcome": "Hola,",
+      "welcome_guest": "¡Hola!",
+      "logout": {
+        "title": "Cerrar sesión",
+        "confirmation": "¿Quieres cerrar sesión?",
+        "confirmation_description": "Estás a punto de cerrar tu sesión, tendrás que iniciar sesión nuevamente si deseas usar todas las funciones. ¿Estás seguro?"
+      },
+      "login": {
+        "title": "Iniciar sesión"
+      },
+      "sign_up": {
+        "title": "Regístrate"
+      },
+      "delete": {
+        "title": "Eliminar cuenta",
+        "dialog": {
+          "title": "Elimina tu cuenta",
+          "description": "¿Estás seguro de que quieres eliminar tu cuenta? No podrás volver a acceder con las credenciales actuales aunque siempre estaremos encantados de que vuelvas a registrarte. Si tienes algún problema puedes enviarnos un correo a ",
+          "button": {
+            "delete_account": "Eliminar cuenta",
+            "cancel": "Cancelar"
+          }
+        }
+      },
+      "delete_error": {
+        "dialog": {
+          "title": "No se ha podido eliminar tu cuenta",
+          "description": "Se ha presentado un error eliminando tu cuenta. Si tienes algún problema puedes enviarnos un correo a ",
+          "button": {
+            "cancel": "Cancelar"
+          }
+        }
+      },
+      "delete_success": {
+        "dialog": {
+          "title": "Su cuenta ha sido eliminada con éxito"
+        }
+      },
+      "info": "Mis datos",
+      "inbox": "Mis mensajes",
+      "purchases": "Mis compras",
+      "company_site": "Visite nuestro sitio corporativo",
+      "privacy_policy": "Política de privacidad",
+      "terms": "Términos de servicio",
+      "contact": "Contactar"
+    }
+  },
+  "purchases": {
+    "title": "Mis compras",
+    "empty_search": "No se encontraron compras.",
+    "empty_purchases_title": "Aún no tienes compras",
+    "empty_purchases_content": "Cuando empieces a comprar, tus compras aparecerán aquí.",
+    "search_text_field": {
+      "title": "Buscar compra",
+      "placeholder": "Buscar"
+    },
+    "filters": {
+      "title": "Filtrar el tipo de búsqueda"
+    },
+    "types": {
+      "ticket": {
+        "ticket": "Tique",
+        "delivery_note": "Albarán",
+        "simple": "Factura simplificada",
+        "annulment": "Anulación"
+      },
+      "full_invoice": "Factura Completa",
+      "invoice": "Factura",
+      "document": "Documento Sustitutivo",
+      "download": {
+        "delivery_note": "Albaran",
+        "simple": "FacturaSimplificada",
+        "invoice": "Factura"
+      }
+    },
+    "detail": {
+      "download_error": {
+        "title": "Error en la descarga",
+        "body": "Debido a un problema técnico no hemos podido descargar tu documento. Por favor, inténtalo de nuevo en unos minutos o envíanos un e-mail a ",
+        "button": "Volver"
+      },
+      "establishment": {
+        "title": "Información del establecimiento",
+        "title_sale": "Datos del establecimiento",
+        "title_invoice": "Datos de la empresa emisora",
+        "invoice_keys": {
+          "name": "Nombre ",
+          "nif": "CIF/NIF/NRT ",
+          "phone": "Teléfono "
+        }
+      },
+      "document": {
+        "title": "Datos del documento",
+        "document_type": "Tipo",
+        "document_date": "Fecha y hora del documento",
+        "document_number": "Número del documento",
+        "card": "Tarjeta",
+        "plate": "Matrícula",
+        "driver": "Conductor"
+      },
+      "lines": {
+        "title": "Datos de la compra",
+        "product": "PRODUCTO",
+        "quantity": "CANT.",
+        "price": "PRECIO",
+        "subtotal": "SUBTOTAL"
+      },
+      "summary": {
+        "title": "Resumen",
+        "vat_type": "T.IVA",
+        "igic_type": "T.IGIC",
+        "igi_type": "T.IGI",
+        "base": "BASE",
+        "vat": "IVA",
+        "igic": "IGIC",
+        "igi": "IGI",
+        "subtotal": "Subtotal",
+        "total": "TOTAL",
+        "vat_amount": "Importe de IVA",
+        "igic_amount": "Importe de IGIC",
+        "igi_amount": "Importe de IGI",
+        "payment_method": "Forma de pago",
+        "payment_cash": "Efectivo",
+        "payment_credit": "Crédito",
+        "payment_debit": "Débito"
+      },
+      "download_pdf": "Descargar PDF"
+    }
+  },
+  "my_information": {
+    "title": "Mis datos",
+    "fields": {
+      "name": "Nombre",
+      "cifnif": "CIF/NIF/NRT",
+      "address": "Dirección",
+      "zip_code": "Código postal",
+      "population": "Población",
+      "province": "Provincia",
+      "country": "País",
+      "phone": "Teléfono",
+      "cellphone": "Teléfono móvil",
+      "email": "E-mail"
+    }
+  },
+  "language": {
+    "dialog": {
+      "title": "Cambio de idioma de la aplicación",
+      "body": "Para realizar el cambio de idioma, la aplicación se reiniciará y deberás iniciar sesión nuevamente.",
+      "accept_button": "Cambiar idioma",
+      "cancel_button": "Cancelar"
+    }
+  },
+  "profile_lang_en": "Inglés",
+  "profile_lang_es": "Español",
+  "profile_lang_ca": "Catalán",
+  "no_available": "No disponible",
+  "global_language": "Español",
+  "station": {
+    "detail": {
+      "call": "Llamar",
+      "navigate": "Navegar",
+      "contact": "Contactar",
+      "modal_messages": {
+        "email": "La dirección de correo electrónico de contacto del establecimiento es el",
+        "phone": "El teléfono de contacto del establecimiento es el"
+      },
+      "services": {
+        "supermarket": "Supermercado",
+        "vending": "Vending",
+        "restaurant": "Bar / restaurante",
+        "wash": "Lavado",
+        "automatic_wash": "Lavado automático",
+        "manual_wash": "Lavado manual",
+        "water_air": "Aire y agua",
+        "wc": "WC",
+        "shower": "Duchas",
+        "workshop": "Taller",
+        "lodging": "Alojamiento",
+        "wifi": "WIFI",
+        "playground": "Zona de recreo",
+        "parking": "Aparcamiento",
+        "truck_parking": "Aparcamiento camiones",
+        "camper_area": "Área autocaravanas"
+      }
+    },
+    "schedule": {
+      "is_open": "Abierto",
+      "is_closed": "Cerrado",
+      "will_open": "Abre",
+      "will_close": "Cierre",
+      "open_all_day": "Abierto todo el día",
+      "closed_all_day": "Cerrado todo el día",
+      "weekdays": {
+        "monday": "Lunes",
+        "tuesday": "Martes",
+        "wednesday": "Miércoles",
+        "thursday": "Jueves",
+        "friday": "Viernes",
+        "saturday": "Sábado",
+        "sunday": "Domingo"
+      }
+    }
+  },
+  "call": "Llamar",
+  "navigate": "Navegar",
+  "contact": "Contactar",
+  "cards": {
+    "title": {
+      "title_enter_pin": "Introducir PIN"
+    },
+    "add_card": "Añadir tarjeta",
+    "card_pin": {
+      "text_enter_pin": "Introduce el código de seguridad de la tarjeta.",
+      "pin": "PIN",
+      "pin_verified": "PIN verificado",
+      "pin_verified_message": "La tarjeta será añadida a favoritas",
+      "wrong_pin": "PIN incorrecto",
+      "wrong_pin_message": "El PIN no pudo ser verificado"
+    },
+    "banned": {
+      "title": "Tarjeta bloqueada",
+      "body": "No es posible agregar esta tarjeta ya que ha introducido erróneamente el PIN en demasiadas ocasiones. Podrá intentar agregarla de nuevo en ",
+      "body2": " hora's. Si tienes problemas puedes enviarnos un correo a: ",
+      "btn_ok": "Aceptar"
+    }
+  },
+  "general_exceptions": {
+    "message_bad_response": "Ocurrió un error al consultar la información. Intente nuevamente. ",
+    "message_no_internet_connection": "No hay conexión a internet.",
+    "message_timeout": "No se pudo contactar con el servidor. Intente nuevamente.",
+    "message_unknown": "Ha ocurrido un error. Intente nuevamente."
+  },
+  "guest": {
+    "dialog": {
+      "title": "¿Quieres iniciar sesión?",
+      "body": "Para poder disfrutar de todas las funciones de esta aplicación debes iniciar sesión. ¿Quieres ir al inicio de sesión?",
+      "guest_continue": "Continuar como invitado"
+    }
+  },
+  "successful_register": {
+    "dialog": {
+      "title": "¡Gracias por registrarte!",
+      "body": "Tu cuenta ha sido creada con éxito."
+    }
+  },
+  "dropdown": {
+    "single_option": "Seleccionado",
+    "multiple_option": "Seleccionados"
+  }
+}

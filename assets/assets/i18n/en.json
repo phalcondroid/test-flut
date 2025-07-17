@@ -1,0 +1,776 @@
+{
+  "authentication": {
+    "login": {
+      "title": "Welcome again",
+      "email_text_field": {
+        "title": "E-mail",
+        "error": "Incorrect e-mail format (ex. example@example.com)"
+      },
+      "password_text_field": {
+        "title": "Password",
+        "error": "Check the password security requirements"
+      },
+      "remember_login_checkbox": {
+        "title": "Remember me in this device"
+      },
+      "login_button": {
+        "title": "Log in"
+      },
+      "forget_label_button": {
+        "title": "Forgot password?"
+      },
+      "sign_up_label": {
+        "question": "You do not have an account yet?",
+        "button": "Register"
+      },
+      "success_dialog": {
+        "title": "Logging in as user",
+        "message": "Welcome",
+        "button": "Continue"
+      },
+      "invalid_credentials_dialog": {
+        "title": "Error",
+        "message": "Provided credentials are invalid",
+        "button": "Back"
+      },
+      "failed_dialog": {
+        "title": "Error",
+        "message": "An error has occurred. Please try again later",
+        "button": "Back"
+      },
+      "user_waiting_for_approval": {
+        "title": "Pending admin approval",
+        "body": "An email was sent to the admin account notifiying your linked account. As soon as your account be validated we will send a notification and can login to the app, if there is any problem, you can send an email to: ",
+        "body_without_email": "An email was sent to the admin account notifiying your linked account. As soon as your account be validated we will send a notification and can login to the app.",
+        "back_button": "Ok"
+      }
+    },
+    "register": {
+      "aeat": {
+        "invalid": {
+          "title": "Invalid data",
+          "body": "It is not possible to register this user because the fiscal data (NIF + Name) has not been found or do not match completely with the information registered in AEAT. You can check the data and try again or if you have any problem, you can send us an e-mail to ",
+          "accept_button": "Accept"
+        },
+        "error": {
+          "title": "Can not continue",
+          "body": "Due to a technical problem it is not possible to validate the user data. Please try again in a few minutes. If the problem persists, please send us an email to ",
+          "accept_button": "Accept"
+        }
+      },
+      "validation": {
+        "title": "Email verification",
+        "body": "We have sent you an email to the address used for registration with a validation code. Enter the code below to proceed with registration. If you have any problem you can send us an email to ",
+        "fields": {
+          "email": "Email",
+          "code": "Verification code"
+        },
+        "resend_message": "Wait time to resend code: ",
+        "resend": "Resend code",
+        "button": "Verify email",
+        "invalid_otp": {
+          "title": "Invalid code",
+          "body": "The code entered is invalid, try again..",
+          "button": "Back"
+        },
+        "resend_error": {
+          "title": "Error resending verification code"
+        },
+        "resend_success": {
+          "title": "Verification code successfully resent"
+        }
+      },
+      "image": {
+        "menu": {
+          "title": "Choose an option",
+          "camera": "Take photo",
+          "gallery": "Open gallery",
+          "cancel": "Cancel"
+        }
+      },
+      "required_fields": {
+        "title": "The marked fields with * are required"
+      },
+      "cif_nif": {
+        "title": "CIF/NIF/NRT",
+        "error": "The entered NIF does not have a correct structure"
+      },
+      "email": {
+        "title": "E-mail",
+        "error": "Incorrect e-mail format (ex. example@example.com)"
+      },
+      "confirmation_email": {
+        "title": "E-mail confirmation",
+        "error": "Email addresses do not match"
+      },
+      "password": {
+        "title": "Password",
+        "error": "Check the password security requirements",
+        "requirements": {
+          "password_length": "The password must have at least 8 characters and contain: ",
+          "lowercase": "1 lowercase letter",
+          "uppercase": "1 uppercase letter",
+          "number": "1 number",
+          "special_char": "1 special character (ex. @#$%^&+=!*-_()<>?/\\)"
+        },
+        "change": {
+          "title": "Reset your password",
+          "body_1": "Enter your email address below and we will send you an email with instructions on how to create a new password.",
+          "change_password": "Reset password"
+        }
+      },
+      "continue": {
+        "title": "Continue"
+      },
+      "account_created": {
+        "title": "Do you already have an account? "
+      },
+      "login": {
+        "title": "Login"
+      },
+      "error_dialog": {
+        "title": "Your account could not be created",
+        "body": "Due to a technical problem we were unable to create your account. Please try again in a few minutes or send us an email to: ",
+        "button": "Cancel"
+      },
+      "no_mail_dialog": {
+        "title": "New user",
+        "body": "An error occurred while creating the new user. We are unable to check the email address. To help you you can send us an email to ",
+        "accept_button": "Accept"
+      },
+      "no_billable_dialog": {
+        "title": "E-mail already assigned",
+        "body": "The e-mail address you entered is already assigned to a customer with different data than the one you entered. You can cancel and try to enter the correct data, continue with the registration of a new customer or send us an email to ",
+        "accept_button": "New customer",
+        "cancel_button": "Cancel"
+      },
+      "billable_dialog": {
+        "title": "E-mail already assigned",
+        "body": "The e-mail address you entered is assigned to a customer with different data than the one you entered. You can cancel and try to enter the correct data, continue with the registration of a new customer or send us an email to ",
+        "accept_button": "New customer",
+        "cancel_button": "Cancel"
+      },
+      "name": {
+        "title": "Name",
+        "error": "Enter a valid name"
+      },
+      "address": {
+        "title": "Address",
+        "error": "Enter a valid address"
+      },
+      "zip_code": {
+        "title": "Zip Code",
+        "error": "Enter a valid zip code"
+      },
+      "province": {
+        "title": "Province",
+        "error": "Enter a valid province"
+      },
+      "population": {
+        "title": "Population",
+        "error": "Enter a valid population"
+      },
+      "country": {
+        "title": "Country"
+      },
+      "phone": {
+        "title": "Phone",
+        "error": "Enter a valid phone"
+      },
+      "cellphone": {
+        "title": "Cellphone",
+        "error": "Enter a valid cellphone"
+      },
+      "tos_checkbox": {
+        "title": "By sending your data you accept the ",
+        "privacy_policy": "privacy policy ",
+        "connector": "and the ",
+        "terms_of_use": "terms of service"
+      },
+      "join_us": {
+        "title": "Join us"
+      },
+      "user_already_registered_dialog": {
+        "title": "User already exists",
+        "title2": "Customer already exists",
+        "body": "The data you have entered already exists in user management. Do you want to recover the password for this account? If you have problems you can contact us by sending us an e-mail to: ",
+        "body2": "The data you have entered already exists in customer management. Do you want to link the user to existing data? If you have problems you can contact us by sending us an e-mail to: ",
+        "recover_password_button": "Recover password",
+        "back_button": "Cancel"
+      },
+      "user_unapproved_dialog": {
+        "title": "User not yet approved by administrator",
+        "body": "The data you have entered corresponds to a user that has not yet been approved by an administrator, contact the administrator or try again later. ",
+        "back_button": "Back"
+      },
+      "link": {
+        "link_account": "Link account",
+        "dialog": {
+          "title": "Customer linking",
+          "description": "An email has been sent to your account administrator so the linking can be confirmed. Once the link is made you will be able to access with your credentials. If you have problems you can contact us by sending us an e-mail at ",
+          "button": "OK"
+        }
+      }
+    },
+    "password_recovery": {
+      "title": "Password Recovery",
+      "description": "We have sent you an email to the address indicated with a validation code. Enter your new password and the code sent below to proceed with the password change. If you have any problems you can send us an email to ",
+      "email": "Email",
+      "password": {
+        "new": "New password",
+        "requirements": {
+          "title": "Password requirements",
+          "password_length": "The password must have at least 8 characters and contain: ",
+          "lowercase": "1 lowercase letter",
+          "uppercase": "1 uppercase letter",
+          "number": "1 number",
+          "special_char": "1 special character (ex. @#$%^&+=!*-_()<>?/\\)"
+        },
+        "error": "Review password security requirements"
+      },
+      "confirmation": {
+        "title": "Confirm your new password",
+        "error": "Passwords do not match"
+      },
+      "otp": {
+        "title": "Verification code",
+        "error": "Invalid code"
+      },
+      "button": {
+        "change": {
+          "title": "Change password"
+        },
+        "resend": {
+          "title": "Resend code"
+        }
+      },
+      "dialog": {
+        "success": {
+          "title": "Password has been changed successfully"
+        },
+        "error": {
+          "title": "An error occurred changing the password"
+        },
+        "invalid_otp": {
+          "title": "Invalid validation code"
+        },
+        "user_not_found": {
+          "title": "User not found",
+          "body": "The user with email address can't be found, you can register as a user or check our support page sending an email to: ",
+          "button": "Ok"
+        }
+      }
+    }
+  },
+  "configuration": {
+    "failed_dialog": {
+      "title": "Error",
+      "message": "Unable to communicate with the server, please restart the application.",
+      "button": "Exit"
+    }
+  },
+  "welcome": {
+    "title": "Welcome",
+    "view": {
+      "login_button": "Log in",
+      "register_button": "Register",
+      "login_guest_button": "Log in as guest"
+    },
+    "dialog": {
+      "login_guest_message": "Some functions will be no available, to get access to all content, please log in with a registered account to access all features",
+      "register_confirm": "Do you want to register?",
+      "creation_disabled_message_1": "To continue with registration, please contact: ",
+      "creation_disabled_message_2": "In case you are already registered and want to link your account, click on the link option.",
+      "continue_button": "Continue",
+      "accept_button": "Accept",
+      "link_button": "Link your account"
+    }
+  },
+  "coupons": {
+    "title": "My Coupons",
+    "dropdown": {
+      "title": "Establishment",
+      "hint_text": "Choose establishments: ",
+      "all": "All"
+    },
+    "filters": {
+      "title": "Filter by coupon type: ",
+      "refund": "Check",
+      "amount": "Amount",
+      "promotional": "Promotional",
+      "wash": "Wash"
+    },
+    "summary": {
+      "establishment": "Establishment",
+      "amount": "Amount",
+      "promotion": "Promotion",
+      "wash_product": "Wash product name",
+      "issue_date": "Issued",
+      "expiration_date": "Expires"
+    },
+    "refund": {
+      "detail": {
+        "title": "Refund check",
+        "type": "Type",
+        "amount": "Amount",
+        "promotion": "Promotion",
+        "wash_product": "Product",
+        "issue_date": "Issued",
+        "expiration_date": "Expires",
+        "establishment": "Establishment",
+        "description": "Here is your refund check. You can use the coupon at our payment terminals."
+      }
+    },
+    "amount": {
+      "detail": {
+        "title": "Amount Coupon",
+        "type": "Type",
+        "amount": "Amount",
+        "issue_date": "Issued",
+        "expiration_date": "Expires",
+        "establishment": "Establishment"
+      }
+    },
+    "promotional": {
+      "detail": {
+        "title": "Promotional Coupon",
+        "type": "Type",
+        "description": "Promotion",
+        "issue_date": "Issued",
+        "expiration_date": "Expires",
+        "establishment": "Establishment"
+      }
+    },
+    "wash": {
+      "detail": {
+        "title": "Wash coupon",
+        "type": "Type",
+        "description": "Product",
+        "issue_date": "Issued",
+        "expiration_date": "Expires",
+        "establishment": "Establishment"
+      }
+    },
+    "code": {
+      "refund": {
+        "title": "Refund check code"
+      },
+      "coupon": {
+        "title": "Coupon code"
+      }
+    }
+  },
+  "messages": {
+    "title": "My messages",
+    "filter": {
+      "sort": {
+        "title": "Order by:",
+        "newest": "Newest",
+        "oldest": "Oldest"
+      },
+      "status": {
+        "title": "Filter by:",
+        "all": "All",
+        "read": "Read",
+        "unread": "Unread"
+      }
+    },
+    "empty": {
+      "title": "You don't have messages yet",
+      "body": "When you receive a message, they are going to appear here."
+    },
+    "detail": {
+      "button": "Delete"
+    },
+    "dialog": {
+      "title": "Delete message",
+      "body": "Are you sure you want to delete your message? Once deleted you will not be able to recover it.",
+      "button": {
+        "cancel": "Cancel",
+        "delete": "Delete"
+      }
+    }
+  },
+  "check_availability": {
+    "dialogs": {
+      "user_locked": {
+        "title": "User was locked",
+        "body": "The credentials used has been locked by admin, you could try to contact to administrator to be unlocked, also you can contact with support for more information and sending us an email to: ",
+        "btn_ok": "Ok"
+      }
+    }
+  },
+  "force_update": {
+    "dialogs": {
+      "force_update": {
+        "title": "Mandatory Update",
+        "body": "Please go to your smartphone store and update the application."
+      }
+    }
+  },
+  "company_was_disabled": "Company was disabled",
+  "communication_issues": "Communication issues",
+  "email": "Email",
+  "password": "Password",
+  "keep_logged": "Keep me logged in",
+  "accept": "Accept",
+  "forgot_password": "Forgot your password?",
+  "forgot_password_message": "Please, for password changing get in contact with: ",
+  "bad_credentials": "Error! User or Password incorrect",
+  "invalid_email": "Enter valid email",
+  "register_message": "To proceed with register, please get in contact with: ",
+  "search": "Search",
+  "continue": "Continue",
+  "login_to_use": "Log in to use this feature",
+  "close_session": "Close session",
+  "close_session_message": "Are you sure you want to close the application?",
+  "yes": "Yes",
+  "no": "No",
+  "password_length": "Password is too short",
+  "logged_as_user": "Logged in as user",
+  "login_failed": "Login failed",
+  "invalid_credentials": "Please enter valid email and password",
+  "forgot_password_title": "Forgot password",
+  "guest_users": "Log in to use this feature",
+  "logout": "Logout",
+  "alvic_user": "Alvic user",
+  "my_cards": "My cards",
+  "fuel_type": "Fuel type",
+  "fuel_station_brand": "Fuel station brand",
+  "mini_market": "Mini market",
+  "eess_service": "EESS with service",
+  "restaurant": "Restaurant",
+  "automatic_wash": "Automatic wash",
+  "manual_wash": "Manual wash",
+  "water_air": "Water and air",
+  "wc": "Wc",
+  "no_search_results": "No results for this search term",
+  "card_type": "Card: ",
+  "card_type_vehicle": "Vehicle",
+  "card_type_driver": "Driver",
+  "card_type_client": "Client",
+  "quit_app": "Exit",
+  "invalid_token_title": "Invalid token",
+  "invalid_token_message": "Invalid token, please log in with your credentials",
+  "car_plate": "Plate: ",
+  "car_description": "Description: ",
+  "zip_code": "Postal code",
+  "province": "Province",
+  "logout_message": "You're about to close your session, you will need to get logged in again to use all functions. Are you sure?",
+  "company_blocked": "This company is out of service, please get in contact with: ",
+  "no_server_connection_title": "Server issues",
+  "no_server_connection": "Server connection error, please try later. If the problem persists get in contact with: ",
+  "sorry_for_inconvenience": "Sorry for inconvenience",
+  "no_internet_connection": "Cannot connect to the server. Please check your internet connection and try again.",
+  "retry": "Retry",
+  "account_used": "These credentials belong to one or more clients, please contact:",
+  "if_problem_persists": "If the problem persists please get in contact with:",
+  "no_config_found": "Sorry, there is no configuration for this company.",
+  "anonymous_user": "Anonymous user",
+  "terms_of_service": "Terms of service",
+  "privacy_policy": "Privacy policy",
+  "and": "and",
+  "cannot_launch_url": "Site is temporary unavailable, try again later.",
+  "loading_icon": "Loading icon",
+  "company_icon": "Company icon",
+  "login_form": "Login form",
+  "login_form_email": "Email input field",
+  "login_form_password": "Password input field",
+  "login_form_login_button": "Login button",
+  "login_form_register_button": "Register info button",
+  "login_form_login_guest": "Login as guest button",
+  "open_drawer": "Open drawer menu",
+  "show_stations_as_list": "Show stations as list",
+  "search_stations": "Search stations input",
+  "map": "Map",
+  "stations_list": "Stations list",
+  "drawer": "Drawer menu",
+  "logout_button": "Logout button",
+  "cards_section_button": "Cards section button",
+  "station_detail": "Station detail",
+  "bottom_navigation_bar": "Bottom navigation bar",
+  "cards_slider_section": "Cards slider section",
+  "card": "Card",
+  "empty_card_list": "You don't have cards yet",
+  "no_results_search": "There's no results for this search",
+  "button_back": "Back",
+  "wrong_pin": "Incorrect PIN",
+  "wrong_pin_message": "PIN could not be verified",
+  "search_card": "Search card",
+  "text_filter_card_type": "Filter card type:",
+  "card_filter_customer": "Client",
+  "card_filter_driver": "Driver",
+  "card_filter_vehicle": "Vehicle",
+  "my_coupons": "My coupons",
+  "card_detail": "Card details",
+  "card_delete": "Delete card",
+  "delete": "Delete",
+  "card_confirm_delete": "Are you sure you want to delete your card?",
+  "card_delete_description": "Deleting it means that you will not be able to use this card without adding it again.",
+  "card_delete_confirmation": "Your card has been deleted",
+  "cancel": "Cancel",
+  "error": "Error",
+  "station_button_label": "Show list",
+  "map_button_label": "Show map",
+  "open_until": "Open until",
+  "empty_card_list_description_add": "Use the button below to add cards.",
+  "empty_card_list_description": "If you need to add a card you can contact:\n",
+  "no_gps": "There is not a GPS functionality enabled",
+  "no_apps": "It is not possible to open an application for ",
+  "profile": {
+    "title": "Profile",
+    "view": {
+      "welcome": "Hi,",
+      "welcome_guest": "Hi!",
+      "logout": {
+        "title": "Logout",
+        "confirmation": "Do you want to log out?",
+        "confirmation_description": "You are about to log out, you will have to log in again if you want to use all the features. Are you sure?"
+      },
+      "login": {
+        "title": "Log in"
+      },
+      "sign_up": {
+        "title": "Register"
+      },
+      "delete": {
+        "title": "Delete account",
+        "dialog": {
+          "title": "Delete your account",
+          "description": "Are you sure you want to delete your account? You will not be able to log in again with your current credentials, although we will always be happy for you to register again. If you have any problem you can send us an email to ",
+          "button": {
+            "delete_account": "Delete account",
+            "cancel": "Cancel"
+          }
+        }
+      },
+      "delete_error": {
+        "dialog": {
+          "title": "Your account couldn't be deleted",
+          "description": "An error has been encountered deleting your account. If you have problems you can contact us by sending us an e-mail to: ",
+          "button": {
+            "cancel": "Cancel"
+          }
+        }
+      },
+      "delete_success": {
+        "dialog": {
+          "title": "Your account has been deleted successfully"
+        }
+      },
+      "info": "My personal info",
+      "inbox": "My inbox",
+      "purchases": "My purchases",
+      "company_site": "Check our company site",
+      "privacy_policy": "Privacy policy",
+      "terms": "Services terms",
+      "contact": "Contact"
+    }
+  },
+  "purchases": {
+    "title": "My purchases",
+    "empty_search": "Purchases not found!",
+    "empty_purchases_title": "You don't have purchases yet",
+    "empty_purchases_content": "When you start to buy, purchases going to be appear here!",
+    "search_text_field": {
+      "title": "Purchase type",
+      "placeholder": "Search"
+    },
+    "filters": {
+      "picked_date_label": "Date range searching criteria:",
+      "select_range_init": "From",
+      "select_range_final": "Until",
+      "title": "Filter by kind of search",
+      "date_range_error": "The date must be set in the calendar!"
+    },
+    "types": {
+      "ticket": {
+        "ticket": "Ticket",
+        "delivery_note": "Delivery note",
+        "simple": "Simplified invoice",
+        "annulment": "Annulment"
+      },
+      "full_invoice": "Full invoice",
+      "invoice": "Invoice",
+      "document": "Replacement document",
+      "download": {
+        "delivery_note": "DeliveryNote",
+        "simple": "SimplifiedInvoice",
+        "invoice": "Invoice"
+      }
+    },
+    "detail": {
+      "download_error": {
+        "title": "Download error",
+        "body": "Due to a technical problem we were unable to download your document. Please try again in a few minutes or send us an email to ",
+        "button": "Cancel"
+      },
+      "establishment": {
+        "title": "Establishment info",
+        "title_sale": "Establishment data",
+        "title_invoice": "Company info",
+        "invoice_keys": {
+          "name": "Name ",
+          "nif": "CIF/NIF/NRT ",
+          "phone": "Phone "
+        }
+      },
+      "document": {
+        "title": "Document info",
+        "document_type": "Type",
+        "document_date": "Document date time",
+        "document_number": "Document number",
+        "card": "Card",
+        "plate": "Plates",
+        "driver": "Driver"
+      },
+      "lines": {
+        "title": "Purchase info",
+        "product": "PRODUCT",
+        "quantity": "QUANT.",
+        "price": "PRICE",
+        "subtotal": "SUBTOTAL"
+      },
+      "summary": {
+        "title": "Summary",
+        "vat_type": "VAT.KND",
+        "igic_type": "IGIC.KND",
+        "igi_type": "IGI.KND",
+        "base": "BASE",
+        "vat": "VAT",
+        "igic": "IGIC",
+        "igi": "IGI",
+        "subtotal": "Subtotal",
+        "total": "TOTAL",
+        "vat_amount": "VAT amount",
+        "igic_amount": "IGIC amount",
+        "igi_amount": "IGI amount",
+        "payment_method": "Payment method",
+        "payment_cash": "Cash",
+        "payment_credit": "Credit",
+        "payment_debit": "Debit"
+      },
+      "download_pdf": "Download document"
+    }
+  },
+  "my_information": {
+    "title": "My information",
+    "fields": {
+      "name": "Name",
+      "cifnif": "CIF/NIF/NRT",
+      "address": "Address",
+      "zip_code": "Zip code",
+      "population": "Population",
+      "province": "Province",
+      "country": "Country",
+      "phone": "Phone",
+      "cellphone": "Cellphone",
+      "email": "Email"
+    }
+  },
+  "language": {
+    "dialog": {
+      "title": "Application language change",
+      "body": "To change the application language, it is going to restart and you will have to log in again.",
+      "accept_button": "Change language",
+      "cancel_button": "Cancel"
+    }
+  },
+  "profile_lang_en": "English",
+  "profile_lang_es": "Spanish",
+  "profile_lang_ca": "Catalan",
+  "no_available": "No available",
+  "global_language": "English",
+  "station": {
+    "detail": {
+      "call": "Call",
+      "navigate": "Navigate",
+      "contact": "Contact",
+      "modal_messages": {
+        "email": "The establishment's contact email address is",
+        "phone": "The establishment's contact telephone number is"
+      },
+      "services": {
+        "supermarket": "Supermarket",
+        "vending": "Vending",
+        "restaurant": "Bar / restaurant",
+        "wash": "Washing",
+        "automatic_wash": "Automatic washing",
+        "manual_wash": "Manual washing",
+        "water_air": "Air and water",
+        "wc": "WC",
+        "shower": "Showers",
+        "workshop": "Mechanical workshop",
+        "lodging": "Lodging",
+        "wifi": "WIFI",
+        "playground": "Playground",
+        "parking": "Parking",
+        "truck_parking": "Truck parking",
+        "camper_area": "Camper area"
+      }
+    },
+    "schedule": {
+      "is_open": "Open",
+      "is_closed": "Closed",
+      "will_open": "Opens",
+      "will_close": "Closes",
+      "open_all_day": "Open all day",
+      "closed_all_day": "Closed all day",
+      "weekdays": {
+        "monday": "Monday",
+        "tuesday": "Tuesday",
+        "wednesday": "Wednesday",
+        "thursday": "Thursday",
+        "friday": "Friday",
+        "saturday": "Saturday",
+        "sunday": "Sunday"
+      }
+    }
+  },
+  "call": "Call",
+  "navigate": "Navigate",
+  "contact": "Contact",
+  "cards": {
+    "title": {
+      "title_enter_pin": "Enter PIN"
+    },
+    "add_card": "Add card",
+    "card_pin": {
+      "text_enter_pin": "Enter the security code of the card.",
+      "pin": "PIN",
+      "pin_verified": "PIN verified",
+      "pin_verified_message": "The card will be added to favorites",
+      "wrong_pin": "Wrong PIN",
+      "wrong_pin_message": "PIN is wrong, If you have any issues, you can email us at:  "
+    },
+    "banned": {
+      "title": "Card banned",
+      "body": "It is not possible to add this card because you have entered the PIN incorrectly too many times. You can try adding it again in ",
+      "body2": " hour's. If you have any issues, you can email us at: ",
+      "btn_ok": "Accept"
+    }
+  },
+  "general_exceptions": {
+    "message_bad_response": "An error occurred while consulting the information. Try again.",
+    "message_no_internet_connection": "There is no Internet connection.",
+    "message_timeout": "Could not contact the server. Try again.",
+    "message_unknown": "An error has occurred. Try again."
+  },
+  "guest": {
+    "dialog": {
+      "title": "Do you want to log in?",
+      "body": "In order to enjoy all the functions of this application you must log in. Do you want to go to the login?",
+      "guest_continue": "Continue as a guest"
+    }
+  },
+  "successful_register": {
+    "dialog": {
+      "title": "Thanks for registering!",
+      "body": "Your account has been created successfully."
+    }
+  },
+  "dropdown": {
+    "single_option": "Selected",
+    "multiple_option": "Selected"
+  }
+}

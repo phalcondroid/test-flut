@@ -1,0 +1,36 @@
+{
+    "statuscode": 1000,
+    "data": [
+        {
+            "pan": "123456789012",
+            "tipoTarjeta": 2,
+            "tarjetaPago": false,
+            "display": "detalle tarjeta cliente",
+            "activa": true,
+            "fechaAlta": 1651190400,
+            "fechaUltMod": 1651221312,
+            "preguntarPin": false,
+            "fechaCaducidad": null,
+            "conductor": null,
+            "vehiculo": null
+        },
+        {
+            "pan": "123456789013",
+            "tipoTarjeta": 2,
+            "tarjetaPago": true,
+            "display": "detalle tarjeta cliene",
+            "activa": true,
+            "fechaAlta": 1651190400,
+            "fechaUltMod": 1651221328,
+            "preguntarPin": true,
+            "fechaCaducidad": null,
+            "conductor": null,
+            "vehiculo": null
+        }
+    ],
+    "message": [
+        "Action executed"
+    ],
+    "timestamp": "2023-03-22 22:53:46",
+    "count": 6
+}

@@ -1,0 +1,169 @@
+{
+    "statuscode": 1000,
+    "data": [
+        {
+            "pan": "123456789012",
+            "tipoTarjeta": 2,
+            "codigoCliente": "0001",
+            "idVehiculo": null,
+            "idConductor": null,
+            "activa": true,
+            "fechaAlta": 1651190400,
+            "fechaUltMod": 1651221312,
+            "preguntarPin": true,
+            "pasarAOmega": false,
+            "fechaCaducidad": null
+        },
+        {
+            "pan": "123456789013",
+            "tipoTarjeta": 2,
+            "codigoCliente": "0001",
+            "idVehiculo": null,
+            "idConductor": null,
+            "activa": true,
+            "fechaAlta": 1651190400,
+            "fechaUltMod": 1651221328,
+            "preguntarPin": true,
+            "pasarAOmega": false,
+            "fechaCaducidad": null
+        },
+        {
+            "pan": "123456789014",
+            "tipoTarjeta": 0,
+            "codigoCliente": "0001",
+            "idVehiculo": 1,
+            "idConductor": null,
+            "activa": true,
+            "fechaAlta": 1651221369,
+            "fechaUltMod": 1651221382,
+            "preguntarPin": true,
+            "pasarAOmega": false,
+            "fechaCaducidad": null
+        },
+        {
+            "pan": "123456789015",
+            "tipoTarjeta": 0,
+            "codigoCliente": "0001",
+            "idVehiculo": 2,
+            "idConductor": null,
+            "activa": true,
+            "fechaAlta": 1651221406,
+            "fechaUltMod": 1651221415,
+            "preguntarPin": true,
+            "pasarAOmega": false,
+            "fechaCaducidad": null
+        },
+        {
+            "pan": "123456789016",
+            "tipoTarjeta": 1,
+            "codigoCliente": "0001",
+            "idVehiculo": null,
+            "idConductor": 1,
+            "activa": true,
+            "fechaAlta": 1651221434,
+            "fechaUltMod": 1651221442,
+            "preguntarPin": true,
+            "pasarAOmega": false,
+            "fechaCaducidad": null
+        }
+    ],
+    "data1": [
+        {
+            "pan": "123456789012",
+            "tipoTarjeta": 2,
+            "tarjetaPago": false,
+            "display": "detalle tarjeta cliente",
+            "activa": true,
+            "fechaAlta": 1651190400,
+            "fechaUltMod": 1651221312,
+            "preguntarPin": false,
+            "fechaCaducidad": null,
+            "conductor": null,
+            "vehiculo": null
+        },
+        {
+            "pan": "123456789013",
+            "tipoTarjeta": 2,
+            "tarjetaPago": true,
+            "display": "detalle tarjeta cliene",
+            "activa": true,
+            "fechaAlta": 1651190400,
+            "fechaUltMod": 1651221328,
+            "preguntarPin": true,
+            "fechaCaducidad": null,
+            "conductor": null,
+            "vehiculo": null
+        },
+        {
+            "pan": "123456789014",
+            "tipoTarjeta": 0,
+            "tarjetaPago": true,
+            "display": "descripción tarjeta",
+            "activa": true,
+            "fechaAlta": 1651221369,
+            "fechaUltMod": 1651221382,
+            "preguntarPin": true,
+            "fechaCaducidad": null,
+            "conductor": null,
+            "vehiculo": {
+                "id": "1",
+                "matricula": "1234ABC",
+                "display": "Peugeot 206"
+            }
+        },
+        {
+            "pan": "123456789015",
+            "tipoTarjeta": 0,
+            "tarjetaPago": false,
+            "display": "descripción tarjeta",
+            "activa": true,
+            "fechaAlta": 1651221406,
+            "fechaUltMod": 1651221415,
+            "preguntarPin": true,
+            "fechaCaducidad": null,
+            "conductor": null,
+            "vehiculo": {
+                "id": "2",
+                "matricula": "1234ABD",
+                "display": "Renault Clio"
+            }
+        },
+        {
+            "pan": "123456789016",
+            "tipoTarjeta": 1,
+            "tarjetaPago": true,
+            "display": "descripción tarjeta",
+            "activa": true,
+            "fechaAlta": 1651221434,
+            "fechaUltMod": 1679934729,
+            "preguntarPin": true,
+            "fechaCaducidad": null,
+            "conductor": {
+                "id": "2",
+                "display": "Manel 9016"
+            },
+            "vehiculo": null
+        },
+        {
+            "pan": "123456789034",
+            "tipoTarjeta": 1,
+            "tarjetaPago": false,
+            "display": "descripción tarjeta",
+            "activa": true,
+            "fechaAlta": 1679933015,
+            "fechaUltMod": 1679933044,
+            "preguntarPin": true,
+            "fechaCaducidad": 1672531200,
+            "conductor": {
+                "id": "3",
+                "display": "Manel 9034"
+            },
+            "vehiculo": null
+        }
+    ],
+    "message": [
+        "Action executed"
+    ],
+    "timestamp": "2022-05-11 08:37:19",
+    "count": 8
+}

@@ -1,0 +1,771 @@
+{
+  "authentication": {
+    "login": {
+      "title": "Benvingut de nou",
+      "email_text_field": {
+        "title": "E-mail",
+        "error": "Format de e-mail incorrecte(ex. exemple@exemple.com)"
+      },
+      "password_text_field": {
+        "title": "Contrasenya",
+        "error": "Revisa els requisits de seguretat de la contrasenya"
+      },
+      "remember_login_checkbox": {
+        "title": "Recordar-me en aquest dispositiu"
+      },
+      "login_button": {
+        "title": "Iniciar sessió"
+      },
+      "forget_label_button": {
+        "title": "Has oblidat la contrasenya?"
+      },
+      "sign_up_label": {
+        "question": "Encara no tens compte?",
+        "button": "Registra't"
+      },
+      "success_dialog": {
+        "title": "Ingressant com usuari",
+        "message": "Benvingut",
+        "button": "Continuar"
+      },
+      "invalid_credentials_dialog": {
+        "title": "Error",
+        "message": "Les credencials proporcionades són incorrectes",
+        "button": "Tornar"
+      },
+      "failed_dialog": {
+        "title": "Error",
+        "message": "Hi ha hagut un error. Si us plau intenta-ho més tard",
+        "button": "Continuar"
+      },
+      "user_waiting_for_approval": {
+        "title": "Validació pendent",
+        "body": "S'ha enviat un correu electrònic a l'adreça que administra el compte al qual t'has intentat vincular. quan es validi la vinculació podràs accedir amb les teves credencials. Si tens algun problema pots enviar-nos un e-mail a: ",
+        "body_without_email": "S'ha enviat un correu electrònic a l'adreça que administra el compte al qual t'has intentat vincular. quan es validi la vinculació podràs accedir amb les teves credencials.",
+        "back_button": "Acceptar"
+      }
+    },
+    "register": {
+      "aeat": {
+        "invalid": {
+          "title": "Dades no validades",
+          "body": "No és possible donar d'alta aquest usuari pel fet que les dades fiscals(NIF + Nom) no s'han trobat o no coincideixen al complet amb la informació registrada a l'AEAT. Pots revisar les dades i tornar-ho a intentar o si tens algun problema pots enviar-nos un e-mail a ",
+          "accept_button": "Acceptar"
+        },
+        "error": {
+          "title": "No és possible continuar",
+          "body": "A causa d’un problema tècnic no es poden validar les dades d’usuari. Si us plau torna a intentar-ho en uns minuts. Si el problema persisteix t’agraïm ens enviïs un correu a ",
+          "accept_button": "Acceptar"
+        }
+      },
+      "validation": {
+        "title": "Verificació de correu electrònic",
+        "body": "S'ha enviat un correu electrònic a l'adreça que has fet servir per registrar-te amb un codi de validació. Introdueix el codi a continuació per procedir amb el registre. Si tens algun problema pots enviar-nos un correu a ",
+        "fields": {
+          "email": "E-mail",
+          "code": "Codi de verificació"
+        },
+        "resend_message": "Temps d'espera per reenviar codi: ",
+        "resend": "Reenviar codi",
+        "button": "Verificar correu",
+        "invalid_otp": {
+          "title": "Codi invàlid",
+          "body": "El codi introduït no és correcte, intenta-ho de nou.",
+          "button": "Tornar"
+        },
+        "resend_error": {
+          "title": "S'ha produït un error reenviant el codi de verificació"
+        },
+        "resend_success": {
+          "title": "El codi de verificació ha sigut reenviat amb èxit"
+        }
+      },
+      "image": {
+        "menu": {
+          "title": "Escull una opció",
+          "camera": "Fer una fotografia",
+          "gallery": "Obrir la galeria",
+          "cancel": "Cancel·lar"
+        }
+      },
+      "required_fields": {
+        "title": "Els camps marcats amb * són obligatoris"
+      },
+      "cif_nif": {
+        "title": "CIF/NIF/NRT",
+        "error": "El NIF introduït no té una estructura correcta"
+      },
+      "email": {
+        "title": "E-mail",
+        "error": "Format de e-mail incorrecte(ex. exemple@exemple.com)"
+      },
+      "confirmation_email": {
+        "title": "Confirmació de E-mail",
+        "error": "Les adreces E-mail no coincideixen"
+      },
+      "password": {
+        "title": "Contrasenya",
+        "error": "Revisa els requisits de seguretat de la contrasenya",
+        "requirements": {
+          "password_length": "La contrasenya ha de tenir més de 8 caràcters y contenir:",
+          "lowercase": "1 lletra minúscula",
+          "uppercase": "1 lletra majúscula",
+          "number": "1 número",
+          "special_char": "1 caràcter especial (ex. @#$%^&+=!*-_()<>?/\\)"
+        },
+        "change": {
+          "title": "Restableix la contrasenya",
+          "body_1": "Escriu la teva adreça de e-mail a continuació y t'enviarem un email amb les instruccions per crear una nova contrasenya.",
+          "change_password": "Restableix la contrasenya"
+        }
+      },
+      "continue": {
+        "title": "Continuar"
+      },
+      "account_created": {
+        "title": "Ja tens compte? "
+      },
+      "login": {
+        "title": "Inicia sessió"
+      },
+      "error_dialog": {
+        "title": "No s'ha pogut crear el teu compte",
+        "body": "Degut a un problema tècnic no hem pogut crear el teu compte. Si us plau, intenta-ho de nou en uns minuts o envia'ns un e-mail a: ",
+        "button": "Tornar"
+      },
+      "no_mail_dialog": {
+        "title": "Nou usuari",
+        "body": "Hi ha hagut un error al crear el nou usuari. No podem comprovar l’adreça de correu. Per poder ajudar-te pots enviar-nos un correu a ",
+        "accept_button": "Acceptar"
+      },
+      "no_billable_dialog": {
+        "title": "E-mail ja assignat",
+        "body": "L’adreça de correu electrònic que has introduït ja està assignada a un client amb dades diferents a les introduïdes. Pots cancel·lar i intentar introduïr les dades correctes, continuar amb el registre d’un nou client o enviar-nos un correu a ",
+        "accept_button": "Nou client",
+        "cancel_button": "Cancel·lar"
+      },
+      "billable_dialog": {
+        "title": "E-mail ja assignat",
+        "body": "L'adreça de correu electrònic que has introduït està assignada a un client amb dades diferents a les introduïdes. Pots cancel·lar i intentar introduir les dades correctes, continuar amb el registre d'un nou client o enviar-nos un correu a ",
+        "accept_button": "Nou client",
+        "cancel_button": "Cancel·lar"
+      },
+      "name": {
+        "title": "Nom",
+        "error": "Introdueix un nom vàlid"
+      },
+      "address": {
+        "title": "Adreça",
+        "error": "Introdueix una adreça vàlida"
+      },
+      "zip_code": {
+        "title": "Codi postal",
+        "error": "Introdueix un codi postal vàlid"
+      },
+      "population": {
+        "title": "Població",
+        "error": "Introdueix una població vàlida"
+      },
+      "province": {
+        "title": "Província",
+        "error": "Introdueix una província vàlida"
+      },
+      "country": {
+        "title": "País"
+      },
+      "phone": {
+        "title": "Telèfon",
+        "error": "Introdueix un telèfon vàlid"
+      },
+      "cellphone": {
+        "title": "Telèfon mòbil",
+        "error": "Introdueix un telèfon mòbil vàlid"
+      },
+      "tos_checkbox": {
+        "title": "Al enviar les teves dades acceptes la ",
+        "privacy_policy": "política de privacitat ",
+        "connector": "i els ",
+        "terms_of_use": "termes del servei"
+      },
+      "join_us": {
+        "title": "uneix-te"
+      },
+      "user_already_registered_dialog": {
+        "title": "Usuari ja existent",
+        "title2": "Client ja existent",
+        "body": "Les dades que has introduït ja existeixen a la gestió d'usuaris, Vols recuperar la contrasenya d'aquest compte? Si tens problemes pots posar-te en contacte amb nosaltres enviant-nos un e-mail a: ",
+        "body2": "Les dades que has introduït ja existeixen a la gestió de clients, Vols vincular l'usuari a les dades ja existents? Si tens problemes pots posar-te en contacte amb nosaltres enviant-nos un e-mail a: ",
+        "recover_password_button": "Recuperar contrasenya",
+        "back_button": "Tornar"
+      },
+      "user_unapproved_dialog": {
+        "title": "Usuari encara no aprovat per l'administrador",
+        "body": "Les dades que has introduït corresponen a un usuari que encara no ha estat aprovat per un administrador, pots posar-te en contacte amb l'administrador o intenta-ho més tard.",
+        "back_button": "Tornar"
+      },
+      "link": {
+        "link_account": "Vincular compte",
+        "dialog": {
+          "title": "Vinculació de client",
+          "description": "S'ha enviat un correu electrònic al administrador de la teva compta per que pugui confirmar la vinculació. Un cop feta la vinculació podràs accedir amb les teves credencials. Si tens problemes pots posar-te en contacte amb nosaltres enviant-nos un e-mail a: ",
+          "button": "OK"
+        }
+      }
+    },
+    "password_recovery": {
+      "title": "Recuperació de contrasenya",
+      "description": "T'hem enviat un correu a l'adreça indicada amb un codi de validació. Introdueix la teva nova contrasenya i el codi enviat a continuació per procedir amb el canvi de contrasenya. Si tens problemes pots posar-te en contacte amb nosaltres enviant-nos un e-mail a ",
+      "email": "Correu",
+      "password": {
+        "new": "Nova contrasenya",
+        "requirements": {
+          "title": "Requeriments de la nova contrasenya",
+          "password_length": "La contrasenya ha de tenir més de 8 caràcters y contenir:",
+          "lowercase": "1 lletra minúscula",
+          "uppercase": "1 lletra majúscula",
+          "number": "1 número",
+          "special_char": "1 caràcter especial (ex. @#$%^&+=!*-_()<>?/\\)"
+        },
+        "error": "Revisa els requisits de seguretat de la contrasenya"
+      },
+      "confirmation": {
+        "title": "Confirma la teva nova contrasenya",
+        "error": "Les contrasenyes no coincideixen"
+      },
+      "otp": {
+        "title": "Codi de verificació",
+        "error": "Codi no vàlid"
+      },
+      "button": {
+        "change": {
+          "title": "Canviar contrasenya"
+        },
+        "resend": {
+          "title": "Reenviar codi"
+        }
+      },
+      "dialog": {
+        "success": {
+          "title": "S'ha canviat la contrasenya amb èxit"
+        },
+        "error": {
+          "title": "Hi ha hagut un error canviant la contrasenya"
+        },
+        "invalid_otp": {
+          "title": "El codi es incorrecte"
+        },
+        "user_not_found": {
+          "title": "Usuari no trobat",
+          "body": "L'adreça de correu introduïda no ha estat trobada al nostre sistema. Pots registrar-te com usuari o si tens algun problema pots enviar-nos un correu electrònic a: ",
+          "button": "OK"
+        }
+      }
+    }
+  },
+  "configuration": {
+    "failed_dialog": {
+      "title": "Error connectant al servidor",
+      "message": "No s'ha pogut comunicar amb el servidor. Si us plau, reinicia la aplicació",
+      "button": "Sortir"
+    }
+  },
+  "welcome": {
+    "title": "Benvingut",
+    "view": {
+      "login_button": "Iniciar sessió",
+      "register_button": "Registra't",
+      "login_guest_button": "Accedir com convidat"
+    },
+    "dialog": {
+      "login_guest_message": "Algunes funcions no estaran disponibles. Per tenir accés a tot el contingut, si us plau, inicia sessió",
+      "register_confirm": "Vols registrar-te?",
+      "creation_disabled_message_1": "Per procedir amb el registre, si us plau, posa't en contacte amb: ",
+      "creation_disabled_message_2": "En caso de que ja estiguis registrat i vulguis vincular el teu compte, pressiona sobre l'opció de vincular.",
+      "continue_button": "Continuar",
+      "accept_button": "Acceptar",
+      "link_button": "Vincula el teu compte"
+    }
+  },
+  "coupons": {
+    "title": "Els meus cupons",
+    "dropdown": {
+      "title": "Establiment",
+      "hint_text": "Seleccionar establiments: ",
+      "all": "Tots"
+    },
+    "filters": {
+      "title": "Filtrar tipus de cupó: ",
+      "refund": "Xec",
+      "amount": "Import",
+      "promotional": "Promoció",
+      "wash": "Rentat"
+    },
+    "summary": {
+      "establishment": "Establiment",
+      "amount": "Import",
+      "promotion": "Promoció",
+      "wash_product": "Producte",
+      "issue_date": "Emissió",
+      "expiration_date": "Caducitat"
+    },
+    "refund": {
+      "detail": {
+        "title": "Xec devolució",
+        "type": "Tipus",
+        "amount": "Import",
+        "promotion": "Promoció",
+        "wash_product": "Producte",
+        "issue_date": "Emissió",
+        "expiration_date": "Caducitat",
+        "establishment": "Establiment",
+        "description": "Aquí tens el teu xec devolució, pots fer servir el cupó als nostres terminals de pagament."
+      }
+    },
+    "amount": {
+      "detail": {
+        "title": "Cupó d'import",
+        "type": "Tipus",
+        "amount": "Import",
+        "issue_date": "Emissió",
+        "expiration_date": "Caducitat",
+        "establishment": "Establiment"
+      }
+    },
+    "promotional": {
+      "detail": {
+        "title": "Cupó promocional",
+        "type": "Tipus",
+        "description": "Promoció",
+        "issue_date": "Emissió",
+        "expiration_date": "Caducitat",
+        "establishment": "Establiment"
+      }
+    },
+    "wash": {
+      "detail": {
+        "title": "Cupó de rentat",
+        "type": "Tipus",
+        "description": "Producte",
+        "issue_date": "Emissió",
+        "expiration_date": "Caducitat",
+        "establishment": "Establiment"
+      }
+    },
+    "code": {
+      "title": "Codi"
+    }
+  },
+  "messages": {
+    "title": "Els meus missatges",
+    "filter": {
+      "sort": {
+        "title": "Ordenar per:",
+        "newest": "Més recents",
+        "oldest": "Més antics"
+      },
+      "status": {
+        "title": "Filtrar per:",
+        "all": "Tots",
+        "read": "Llegits",
+        "unread": "No llegits"
+      }
+    },
+    "empty": {
+      "title": "Encara no tens missatges",
+      "body": "Quan rebis missatges, apareixeran aquí"
+    },
+    "detail": {
+      "button": "Eliminar"
+    },
+    "dialog": {
+      "title": "Eliminar missatge",
+      "body": "Estàs segur que vols eliminar el missatge? Un cop eliminat no podràs recuperar-ho.",
+      "button": {
+        "cancel": "Cancel·lar",
+        "delete": "Eliminar"
+      }
+    }
+  },
+  "check_availability": {
+    "dialogs": {
+      "user_locked": {
+        "title": "Usuari bloquejat",
+        "body": "Les credencials que estàs fent servir han sigut bloquejades per un usuari administrador, pots intentar contactar amb aquest usuari perquè te les desbloquegi. Si tens problemes pots posar-te en contacte amb nosaltres enviant-nos un correu electrònic a: ",
+        "btn_ok": "Acceptar"
+      }
+    }
+  },
+  "force_update": {
+    "dialogs": {
+      "force_update": {
+        "title": "Actualització obligatòria",
+        "body": "Et demanem que vagis a la botiga del teu smartphone i actualitzis l'aplicació."
+      }
+    }
+  },
+  "company_was_disabled": "L'empresa es va desactivar",
+  "communication_issues": "Problemes de comunicació",
+  "email": "E-mail",
+  "password": "Contrasenya",
+  "keep_logged": "No tancar sessió",
+  "accept": "Acceptar",
+  "forgot_password": "Has oblidat la teva contrasenya?",
+  "forgot_password_message": "Si us plau,  per canviar la contrasenya contacta amb: ",
+  "bad_credentials": "¡Error!, Usuari o contrasenya incorrecte",
+  "invalid_email": "Introdueix un e-mail vàlid",
+  "register_message": "Per procedir amb el registre, si us plau posa't en contacte amb: ",
+  "search": "Buscar",
+  "continue": "Continuar",
+  "login_to_use": "Identifica't per poder fer servir aquesta opció",
+  "close_session": "Tancar sessió",
+  "close_session_message": "Estàs segur que vols abandonar l'aplicació?",
+  "yes": "Sí",
+  "no": "No",
+  "password_length": "La contrasenya es massa curta",
+  "logged_as_user": "Accedint com usuari",
+  "login_failed": "Inici de sessió erroni",
+  "invalid_credentials": "Si us plau, introdueix e-mail y contrasenya vàlids",
+  "forgot_password_title": "He oblidat la meva contrasenya",
+  "guest_users": "Identifica't per poder fer servir aquesta funció",
+  "logout": "Tancar sessió",
+  "alvic_user": "Usuari Alvic",
+  "my_cards": "Targetes",
+  "fuel_type": "Tipus de combustible",
+  "fuel_station_brand": "Marca de benzinera",
+  "mini_market": "Mini market",
+  "eess_service": "EESS amb servei",
+  "restaurant": "Restaurant",
+  "automatic_wash": "Rentat automàtic",
+  "manual_wash": "Rentat manual",
+  "water_air": "Aire i aigua",
+  "wc": "Wc",
+  "no_search_results": "No s'han trobat resultats per aquesta cerca.",
+  "card_type": "Targeta: ",
+  "card_type_vehicle": "Vehicle",
+  "card_type_driver": "Conductor",
+  "card_type_client": "Client",
+  "quit_app": "Abandonar",
+  "invalid_token_title": "Token invàlid",
+  "invalid_token_message": "Token invàlid, si us plau introdueix les teves credencials",
+  "car_plate": "Matrícula ",
+  "car_description": "Descripció: ",
+  "zip_code": "Codi postal",
+  "province": "Població",
+  "logout_message": "Estàs a punt de tancar sessió, hauràs d'iniciar sessió de nou si vols fer servir totes les funcions. Estàs segur?",
+  "company_blocked": "Aquesta aplicació es troba fora de servei, si us plau posa't en contacte amb: ",
+  "no_server_connection_title": "Problema de connexió",
+  "no_server_connection": "Error al connectar amb el servidor, intenta-ho més tard. Si el problema persisteix posa't en contacte amb: ",
+  "sorry_for_inconvenience": "Disculpa les molèsties.",
+  "no_internet_connection": "No s'ha pogut connectar al servidor. Si us plau revisa la teva connexió a internet i intenta-ho de nou.",
+  "retry": "Re intentar",
+  "account_used": "Aquestes credencials pertanyen a un o més clients, si us plau posa't en contacte amb:",
+  "if_problem_persists": "Si el problema persisteix, si us plau posa't en contacte amb:",
+  "no_config_found": "Aquesta aplicació es troba fora de servei(Configuració), si us plau posa't en contacte amb: ",
+  "anonymous_user": "Usuari anònim",
+  "terms_of_service": "Termes del servei",
+  "privacy_policy": "Política de privacitat",
+  "and": "i",
+  "cannot_launch_url": "Error al connectar, intenta-ho més tard.",
+  "loading_icon": "Icona de carrega",
+  "company_icon": "Icona de la companyia",
+  "login_form": "Formulari d'inici de sessió",
+  "login_form_email": "Entrada de text de e-mail",
+  "login_form_password": "Entrada de text de contrasenya",
+  "login_form_login_button": "Botó d'inici de sessió",
+  "login_form_register_button": "Botó d'informació de registre",
+  "login_form_login_guest": "Botó d'inici de sessió convidat",
+  "open_drawer": "Obrir menú desplegable",
+  "show_stations_as_list": "Mostrar estacions en llista",
+  "search_stations": "Entrada de text per buscar estacions",
+  "map": "Mapa",
+  "stations_list": "Llista de estacions",
+  "drawer": "Menú lateral",
+  "logout_button": "Botó de tancament de sessió",
+  "cards_section_button": "Botó de secció de targetes",
+  "station_detail": "Detall d'estació",
+  "bottom_navigation_bar": "Barra de navegació inferior",
+  "cards_slider_section": "Secció de targetes",
+  "card": "Targeta",
+  "empty_card_list": "Encara no tens targetes",
+  "no_results_search": "No s'han trobat resultats per aquesta cerca",
+  "button_back": "Enrere",
+  "wrong_pin": "PIN incorrecte",
+  "wrong_pin_message": "El PIN no ha pogut ser verificat",
+  "search_card": "Buscar targeta",
+  "text_filter_card_type": "Filtrar el tipus de targeta:",
+  "card_filter_customer": "Client",
+  "card_filter_driver": "Conductor",
+  "card_filter_vehicle": "Vehicle",
+  "card_detail": "Detall de la targeta",
+  "card_delete": "Eliminar targeta",
+  "my_coupons": "Cupons",
+  "delete": "Eliminar",
+  "card_confirm_delete": "¿Estàs segur de que vols eliminar la targeta?",
+  "card_delete_description": "Eliminar-la significa que no podràs utilitzar aquesta targeta sense afegir-la de nou.",
+  "card_delete_confirmation": "La teva targeta ha sigut eliminada",
+  "cancel": "Cancel·lar",
+  "error": "Error",
+  "station_button_label": "Veure llista",
+  "map_button_label": "Veure mapa",
+  "opened_until": "Obert fins",
+  "empty_card_list_description_add": "Fes servir el botó inferior per afegir targetes.",
+  "empty_card_list_description": "Si necessites afegir una targeta posa't en contacte amb: ",
+  "no_gps": "No es pot iniciar la navegació degut a que no es disposa d'una aplicació de navegació GPS.",
+  "no_apps": "No es possible obrir una aplicació per ",
+  "profile": {
+    "title": "Perfil",
+    "view": {
+      "welcome": "Hola,",
+      "welcome_guest": "Hola!",
+      "logout": {
+        "title": "Tancar sessió",
+        "confirmation": "Vols tancar sessió?",
+        "confirmation_description": "Estàs a punt de tancar sessió, hauràs d'iniciar sessió de nou si vols fer servir totes les funcions. Estàs segur?"
+      },
+      "login": {
+        "title": "Iniciar sessió"
+      },
+      "sign_up": {
+        "title": "Registra't"
+      },
+      "delete": {
+        "title": "Eliminar compte",
+        "dialog": {
+          "title": "Elimina el teu compte",
+          "description": "¿Estàs segur de voler eliminar el teu compte? No podràs tornar a accedir amb les credencials actuals tot i que sempre estarem encantats de que et tornis a registrar. Si tens problemes pots posar-te en contacte amb nosaltres enviant-nos un e-mail a ",
+          "button": {
+            "delete_account": "Eliminar compte",
+            "cancel": "Cancel·lar"
+          }
+        }
+      },
+      "delete_error": {
+        "dialog": {
+          "title": "No s'ha pogut eliminar el teu compte",
+          "description": "S'ha produït un error eliminant el teu compte. Si tens problemes pots posar-te en contacte amb nosaltres enviant-nos un e-mail a ",
+          "button": {
+            "cancel": "Cancel·lar"
+          }
+        }
+      },
+      "delete_success": {
+        "dialog": {
+          "title": "El teu compte ha sigut eliminat amb èxit"
+        }
+      },
+      "info": "Les meves dades",
+      "inbox": "Els meus missatges",
+      "purchases": "Les meves compres",
+      "company_site": "Visita la nostre plana corporativa",
+      "privacy_policy": "Política de privacitat",
+      "terms": "Termes del servei",
+      "contact": "Contactar"
+    }
+  },
+  "purchases": {
+    "title": "Les meves compres",
+    "empty_search": "No s'han trobat compres.",
+    "empty_purchases_title": "Encara no tens compres",
+    "empty_purchases_content": "Quan comencis a comprar, les teves compres apareixeran aquí.",
+    "search_text_field": {
+      "title": "Tipus de compra",
+      "placeholder": "Buscar"
+    },
+    "filters": {
+      "picked_date_label": "Interval de cerca per data",
+      "select_range_init": "Des de",
+      "select_range_final": "Fins a",
+      "title": "Filtrar el tipus de cerca",
+      "date_range_error": "La data s'ha de fixar al calendari!"
+    },
+    "types": {
+      "ticket": {
+        "ticket": "Tiquet",
+        "delivery_note": "Albarà",
+        "simple": "Factura simplificada",
+        "annulment": "Anul·lació"
+      },
+      "full_invoice": "Factura Complerta",
+      "invoice": "Factura",
+      "document": "Document Substitutiu",
+      "download": {
+        "delivery_note": "Albarà",
+        "simple": "Factura Simplificada",
+        "invoice": "Factura"
+      }
+    },
+    "detail": {
+      "download_error": {
+        "title": "Error a la descarrega",
+        "body": "A causa d'un problema tècnic no hem pogut descarregar el teu document. Si us plau torna a intentar-ho en uns minuts o envia'ns un e-mail a ",
+        "button": "Tornar"
+      },
+      "establishment": {
+        "title": "Informació de l'establiment",
+        "title_sale": "Dades de l'establiment",
+        "title_invoice": "Dades de l'empresa emissora",
+        "invoice_keys": {
+          "name": "Nom ",
+          "nif": "CIF/NIF/NRT ",
+          "phone": "Telèfon "
+        }
+      },
+      "document": {
+        "title": "Dades del document",
+        "document_type": "Tipus",
+        "document_date": "Data i hora del document",
+        "document_number": "Número del document",
+        "card": "Targeta",
+        "plate": "Matrícula",
+        "driver": "Conductor"
+      },
+      "lines": {
+        "title": "Dades de la compra",
+        "product": "PRODUCTE",
+        "quantity": "QUANT.",
+        "price": "PREU",
+        "subtotal": "SUBTOTAL"
+      },
+      "summary": {
+        "title": "Resum",
+        "vat_type": "T.IVA",
+        "igic_type": "T.IGIC",
+        "igi_type": "T.IGI",
+        "base": "BASE",
+        "vat": "IVA",
+        "igic": "IGIC",
+        "igi": "IGI",
+        "subtotal": "Subtotal",
+        "total": "TOTAL",
+        "vat_amount": "Import d'IVA",
+        "igic_amount": "Import d'IGIC",
+        "igi_amount": "Import d'IGI",
+        "payment_method": "Forma de pagament",
+        "payment_cash": "Efectiu",
+        "payment_credit": "Crèdit",
+        "payment_debit": "Dèbit"
+      },
+      "download_pdf": "Descarregar PDF"
+    }
+  },
+  "my_information": {
+    "title": "Les meves dades",
+    "fields": {
+      "name": "Nom",
+      "cifnif": "CIF/NIF/NRT",
+      "address": "Adreça",
+      "zip_code": "Codi postal",
+      "population": "Població",
+      "province": "Província",
+      "country": "País",
+      "phone": "Telèfon",
+      "cellphone": "Telèfon mòbil",
+      "email": "E-mail"
+    }
+  },
+  "language": {
+    "dialog": {
+      "title": "Canvio d'idioma de l'aplicació",
+      "body": "Per realitzar el canvio d'idioma, la aplicació es reiniciarà i hauràs d'iniciar sessió de nou.",
+      "accept_button": "Canviar idioma",
+      "cancel_button": "Cancel·lar"
+    }
+  },
+  "profile_lang_en": "Anglès",
+  "profile_lang_es": "Espanyol",
+  "profile_lang_ca": "Català",
+  "no_available": "No disponible",
+  "global_language": "Espanyol",
+  "station": {
+    "detail": {
+      "call": "Trucar",
+      "navigate": "Navegar",
+      "contact": "Contactar",
+      "modal_messages": {
+        "email": "L'adreça de correu electrònic de contacte de l'establiment és el",
+        "phone": "El Telèfon de contacte de l'establiment és el"
+      },
+      "services": {
+        "supermarket": "Supermercat",
+        "vending": "Vending",
+        "restaurant": "Bar / restaurant",
+        "wash": "Rentat",
+        "automatic_wash": "Rentat automàtic",
+        "manual_wash": "Rentat manual",
+        "water_air": "Aire i aigua",
+        "wc": "WC",
+        "shower": "Dutxes",
+        "workshop": "Taller",
+        "lodging": "Allotjament",
+        "wifi": "WIFI",
+        "playground": "Zona d'esbarjo",
+        "parking": "Aparcaent",
+        "truck_parking": "Aparcament de camions",
+        "camper_area": "Àrea d'autocaravanes"
+      }
+    },
+    "schedule": {
+      "is_open": "Obert",
+      "is_closed": "Tancat",
+      "will_open": "Obre",
+      "will_close": "Tancament",
+      "open_all_day": "Obert tot el dia",
+      "closed_all_day": "Tancat tot el dia",
+      "weekdays": {
+        "monday": "Dilluns",
+        "tuesday": "Dimarts",
+        "wednesday": "Dimecres",
+        "thursday": "Dijous",
+        "friday": "Divendres",
+        "saturday": "Dissabte",
+        "sunday": "Diumenge"
+      }
+    }
+  },
+  "call": "Trucar",
+  "navigate": "Navegar",
+  "contact": "Contactar",
+  "cards": {
+    "title": {
+      "title_enter_pin": "Introduir PIN"
+    },
+    "add_card": "Afegir targeta",
+    "card_pin": {
+      "text_enter_pin": "Introdueix el codi de seguretat de la targeta.",
+      "pin": "PIN",
+      "pin_verified": "PIN verificat",
+      "pin_verified_message": "La targeta serà afegida a les teves targetes",
+      "wrong_pin": "PIN incorrecte",
+      "wrong_pin_message": "El PIN introduït no es correcte. Si ho desitges pots posar-te en contacte amb nosaltres enviant un correu a: "
+    },
+    "banned": {
+      "title": "Targeta bloquejada",
+      "body": "No és possible afegir aquesta targeta ja que heu introduït erròniament el PIN massa vegades. Podeu intentar tornar a afegir-la en ",
+      "body2": " hores. Si tens problemes pots enviar-nos un correu a: ",
+      "btn_ok": "Acceptar"
+    }
+  },
+  "general_exceptions": {
+    "message_bad_response": "Ha esdevingut un error al consultar la informació. Intenta-ho de nou més endavant.",
+    "message_no_internet_connection": "No hi ha connexió a Internet.",
+    "message_timeout": "No s'ha pogut contactar amb el servidor. Intenta-ho de nou més endavant.",
+    "message_unknown": "Ha esdevingut un error. Intenta-ho de nou més endavant."
+  },
+  "guest": {
+    "dialog": {
+      "title": "Vols iniciar sessió?",
+      "body": "Per poder gaudir de totes les funcions d'aquesta aplicació has d'iniciar sessió. Vols anar a l'inici de sessió?",
+      "guest_continue": "Continuar com a convidat"
+    }
+  },
+  "successful_register": {
+    "dialog": {
+      "title": "Gracies per registrar-te!",
+      "body": "El teu compte ha sigut creat amb èxit."
+    }
+  },
+  "dropdown": {
+    "single_option": "Seleccionat",
+    "multiple_option": "Seleccionats"
+  }
+}

@@ -1,0 +1,31 @@
+{
+    "code": 100,
+    "msg": "OK",
+    "response": {
+        "user": {
+            "id": 8080,
+            "username": "msegura@alvic.net",
+            "name": "Alvic",
+            "lastName": "",
+            "birthDate": "1990-02-03",
+            "photo": null,
+            "gender": "M",
+            "mobile": "069545646442",
+            "allowPromotional": false,
+            "deviceType": "ANDROID",
+            "deviceLanguage": "ES",
+            "idDevice": "F89B4F9B-80E4-4087-9145-1320C979D5B5",
+            "sendBill": false,
+            "company": "",
+            "taxId": "",
+            "country": "España",
+            "state": "Barcelona",
+            "city": "Barcelona",
+            "address": "Calle Enrique Granados 32",
+            "zipCode": "08008",
+            "assistanceRequired": false,
+            "hasCars": true,
+            "hasCreditCards": true
+        }
+    }
+}

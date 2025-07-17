@@ -1,0 +1,4689 @@
+{
+  "code": 100,
+  "msg": "OK",
+  "response": [
+    {
+      "active": "1",
+      "idStation": 78,
+      "idUser": 117,
+      "wsUrl": "https://185.74.192.238:45022",
+      "brand": "SIN GRUPO",
+      "account": "3434138523DS2",
+      "siteId": "cbcca68b-c7d2-4a94-9c53-e25ba1416056",
+      "name": "ALSA y SERVI",
+      "logo": "https://ws.smartfuel.es/images/46a40ee1-b413-4cee-9c2f-e9b0ff3e5293.png",
+      "address": "CV-185, 12530 Burriana, Castellón",
+      "latitude": 39.899923,
+      "longitude": -0.082778,
+      "services": {
+        "market": false,
+        "vending": false,
+        "restaurant": true,
+        "wash": true,
+        "automaticWash": false,
+        "manualWash": true,
+        "waterAndAir": true,
+        "toilets": true,
+        "showers": false,
+        "garage": false,
+        "lodgings": false,
+        "wifi": false,
+        "recreationalArea": false,
+        "parking": true,
+        "trucksParking": false,
+        "mobileHomeParking": false
+      },
+      "distanceInKm": 0,
+      "gasData": [
+        {
+          "idGasPrices": 64092,
+          "name": "Gasóleo A",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.769,
+          "productCode": 1,
+          "color": "#FFFF82"
+        },
+        {
+          "idGasPrices": 64093,
+          "name": "Sin Plomo 95",
+          "idTypeProduct": 5,
+          "nameTypeProduct": "SPlomo 95",
+          "price": 1.759,
+          "productCode": 5,
+          "color": "#00FF00"
+        },
+        {
+          "idGasPrices": 64094,
+          "name": "Gasoleo A CAMIONES",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.769,
+          "productCode": 11,
+          "color": "#C1C1C1"
+        },
+        {
+          "idGasPrices": 64095,
+          "name": "AD BLUE",
+          "idTypeProduct": 7,
+          "nameTypeProduct": "AdBlue surtidor",
+          "price": 0.84,
+          "productCode": 12,
+          "color": "#16B1F0"
+        }
+      ],
+      "fuellingPointData": [
+        {
+          "fuelPositionNumber": 1,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 101,
+            "major": 36
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64092,
+            64093,
+            64094,
+            64095
+          ]
+        },
+        {
+          "fuelPositionNumber": 2,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 102,
+            "major": 36
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64092,
+            64093,
+            64094,
+            64095
+          ]
+        },
+        {
+          "fuelPositionNumber": 3,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 103,
+            "major": 36
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64092,
+            64093
+          ]
+        },
+        {
+          "fuelPositionNumber": 4,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 104,
+            "major": 36
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64092,
+            64093
+          ]
+        },
+        {
+          "fuelPositionNumber": 5,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 105,
+            "major": 36
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64092,
+            64093
+          ]
+        },
+        {
+          "fuelPositionNumber": 6,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 106,
+            "major": 36
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64092,
+            64093
+          ]
+        }
+      ],
+      "version": "v002",
+      "phoneAssistance": "",
+      "allowReportBugs": "1"
+    },
+    {
+      "active": "1",
+      "idStation": 149,
+      "idUser": 121,
+      "wsUrl": "https://95.60.149.132:45022",
+      "brand": "AMERICAN PETROL",
+      "account": "3434138523DS2",
+      "siteId": "60c1d240-29d7-4a01-ade5-2a35a1f6d904",
+      "name": "AMERICAN PETROL - ALAQUAS",
+      "logo": "https://ws.smartfuel.es/images/1e769410-47de-427c-89fb-b4f5fa59a7e7.png",
+      "address": "C. dels Aladrers, 16, 46970 Alaquàs, Valencia",
+      "latitude": 39.448659,
+      "longitude": -0.473141,
+      "services": {
+        "market": false,
+        "vending": false,
+        "restaurant": false,
+        "wash": false,
+        "automaticWash": false,
+        "manualWash": false,
+        "waterAndAir": true,
+        "toilets": false,
+        "showers": false,
+        "garage": false,
+        "lodgings": false,
+        "wifi": false,
+        "recreationalArea": false,
+        "parking": false,
+        "trucksParking": false,
+        "mobileHomeParking": false
+      },
+      "distanceInKm": 0,
+      "gasData": [
+        {
+          "idGasPrices": 63865,
+          "name": "DIESEL",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.849,
+          "productCode": 1,
+          "color": "#0074B8"
+        },
+        {
+          "idGasPrices": 63866,
+          "name": "Sin Plomo 95",
+          "idTypeProduct": 5,
+          "nameTypeProduct": "SPlomo 95",
+          "price": 1.879,
+          "productCode": 5,
+          "color": "#00E20C"
+        },
+        {
+          "idGasPrices": 63867,
+          "name": "AdBlue",
+          "idTypeProduct": 7,
+          "nameTypeProduct": "AdBlue surtidor",
+          "price": 1.39,
+          "productCode": 7,
+          "color": "#0080FF"
+        }
+      ],
+      "fuellingPointData": [
+        {
+          "fuelPositionNumber": 1,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 301,
+            "major": 70
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            63865
+          ]
+        },
+        {
+          "fuelPositionNumber": 2,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 302,
+            "major": 70
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            63865
+          ]
+        },
+        {
+          "fuelPositionNumber": 3,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 303,
+            "major": 70
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            63865
+          ]
+        },
+        {
+          "fuelPositionNumber": 4,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 304,
+            "major": 70
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            63865
+          ]
+        },
+        {
+          "fuelPositionNumber": 5,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 305,
+            "major": 70
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            63865,
+            63866
+          ]
+        },
+        {
+          "fuelPositionNumber": 7,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 307,
+            "major": 70
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            63866
+          ]
+        },
+        {
+          "fuelPositionNumber": 8,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 308,
+            "major": 70
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            63865
+          ]
+        },
+        {
+          "fuelPositionNumber": 9,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 309,
+            "major": 70
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            63867
+          ]
+        }
+      ],
+      "version": "v002",
+      "phoneAssistance": "",
+      "allowReportBugs": "1"
+    },
+    {
+      "active": "1",
+      "idStation": 150,
+      "idUser": 121,
+      "wsUrl": "https://46.24.241.2:45022",
+      "brand": "AMERICAN PETROL",
+      "account": "3434138523DS2",
+      "siteId": "091a9c4c-d351-4b9b-bf65-c26caafbf992",
+      "name": "AMERICAN PETROL - QUART",
+      "logo": "https://ws.smartfuel.es/images/1e769410-47de-427c-89fb-b4f5fa59a7e7.png",
+      "address": "Av. Comarques del País Valencià 103 Vía de servicio, Autovía del Este, 46930 Quart de Poblet, Valencia",
+      "latitude": 39.471846,
+      "longitude": -0.505292,
+      "services": {
+        "market": false,
+        "vending": false,
+        "restaurant": false,
+        "wash": false,
+        "automaticWash": false,
+        "manualWash": false,
+        "waterAndAir": true,
+        "toilets": false,
+        "showers": false,
+        "garage": false,
+        "lodgings": false,
+        "wifi": false,
+        "recreationalArea": false,
+        "parking": false,
+        "trucksParking": false,
+        "mobileHomeParking": false
+      },
+      "distanceInKm": 0,
+      "gasData": [
+        {
+          "idGasPrices": 63868,
+          "name": "DIESEL",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.849,
+          "productCode": 1,
+          "color": "#0074B8"
+        },
+        {
+          "idGasPrices": 63869,
+          "name": "Sin Plomo 95",
+          "idTypeProduct": 5,
+          "nameTypeProduct": "SPlomo 95",
+          "price": 1.879,
+          "productCode": 5,
+          "color": "#00E20C"
+        },
+        {
+          "idGasPrices": 63870,
+          "name": "AdBlue",
+          "idTypeProduct": 7,
+          "nameTypeProduct": "AdBlue surtidor",
+          "price": 1.39,
+          "productCode": 7,
+          "color": "#0080FF"
+        }
+      ],
+      "fuellingPointData": [
+        {
+          "fuelPositionNumber": 1,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 201,
+            "major": 70
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            63868
+          ]
+        },
+        {
+          "fuelPositionNumber": 2,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 202,
+            "major": 70
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            63868
+          ]
+        },
+        {
+          "fuelPositionNumber": 3,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 203,
+            "major": 70
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            63868,
+            63869
+          ]
+        },
+        {
+          "fuelPositionNumber": 4,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 204,
+            "major": 70
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            63868,
+            63869
+          ]
+        },
+        {
+          "fuelPositionNumber": 5,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 205,
+            "major": 70
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            63868
+          ]
+        },
+        {
+          "fuelPositionNumber": 6,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 206,
+            "major": 70
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            63868
+          ]
+        },
+        {
+          "fuelPositionNumber": 7,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 207,
+            "major": 70
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            63868
+          ]
+        },
+        {
+          "fuelPositionNumber": 8,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 208,
+            "major": 70
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            63868
+          ]
+        },
+        {
+          "fuelPositionNumber": 9,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 209,
+            "major": 70
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            63870
+          ]
+        }
+      ],
+      "version": "v002",
+      "phoneAssistance": "",
+      "allowReportBugs": "1"
+    },
+    {
+      "active": "1",
+      "idStation": 148,
+      "idUser": 121,
+      "wsUrl": "https://46.24.241.1:45022",
+      "brand": "AMERICAN PETROL",
+      "account": "3434138523DS2",
+      "siteId": "bdcfe141-f240-4913-9552-e4b2e0fd9930",
+      "name": "AMERICAN PETROL - REQUENA",
+      "logo": "https://ws.smartfuel.es/images/1e769410-47de-427c-89fb-b4f5fa59a7e7.png",
+      "address": "Pol. Ind., C. del Transporte, 9, 46340 El Romeral, Valencia, España",
+      "latitude": 39.504769,
+      "longitude": -1.124456,
+      "services": {
+        "market": false,
+        "vending": false,
+        "restaurant": false,
+        "wash": false,
+        "automaticWash": false,
+        "manualWash": false,
+        "waterAndAir": true,
+        "toilets": false,
+        "showers": false,
+        "garage": false,
+        "lodgings": false,
+        "wifi": false,
+        "recreationalArea": false,
+        "parking": true,
+        "trucksParking": false,
+        "mobileHomeParking": false
+      },
+      "distanceInKm": 0,
+      "gasData": [
+        {
+          "idGasPrices": 63863,
+          "name": "DIESEL",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.849,
+          "productCode": 1,
+          "color": "#0074B8"
+        },
+        {
+          "idGasPrices": 63864,
+          "name": "Sin Plomo 95",
+          "idTypeProduct": 5,
+          "nameTypeProduct": "SPlomo 95",
+          "price": 1.879,
+          "productCode": 5,
+          "color": "#00E20C"
+        }
+      ],
+      "fuellingPointData": [
+        {
+          "fuelPositionNumber": 1,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 101,
+            "major": 70
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            63863,
+            63864
+          ]
+        },
+        {
+          "fuelPositionNumber": 2,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 102,
+            "major": 70
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            63863,
+            63864
+          ]
+        }
+      ],
+      "version": "v002",
+      "phoneAssistance": "",
+      "allowReportBugs": "1"
+    },
+    {
+      "active": "1",
+      "idStation": 98,
+      "idUser": 117,
+      "wsUrl": "https://88.12.22.27:45022",
+      "brand": "SIN GRUPO",
+      "account": "3434138523DS2",
+      "siteId": "05bab901-95b7-40ff-8db4-c32734387f3c",
+      "name": "ATLANTIS EXPRESS",
+      "logo": "https://ws.smartfuel.es/images/46a40ee1-b413-4cee-9c2f-e9b0ff3e5293.png",
+      "address": "C. el Pi, 1, 03111 Busot, Alicante",
+      "latitude": 38.477404,
+      "longitude": -0.424539,
+      "services": {
+        "market": false,
+        "vending": false,
+        "restaurant": true,
+        "wash": false,
+        "automaticWash": true,
+        "manualWash": false,
+        "waterAndAir": false,
+        "toilets": true,
+        "showers": false,
+        "garage": false,
+        "lodgings": false,
+        "wifi": false,
+        "recreationalArea": false,
+        "parking": true,
+        "trucksParking": false,
+        "mobileHomeParking": false
+      },
+      "distanceInKm": 0,
+      "gasData": [
+        {
+          "idGasPrices": 64198,
+          "name": "Diesel A",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.809,
+          "productCode": 1,
+          "color": "#FFFF82"
+        },
+        {
+          "idGasPrices": 64199,
+          "name": "SP 95",
+          "idTypeProduct": 5,
+          "nameTypeProduct": "SPlomo 95",
+          "price": 1.809,
+          "productCode": 2,
+          "color": "#00E20C"
+        }
+      ],
+      "fuellingPointData": [
+        {
+          "fuelPositionNumber": 1,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 101,
+            "major": 59
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64198,
+            64199
+          ]
+        },
+        {
+          "fuelPositionNumber": 2,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 102,
+            "major": 59
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64198,
+            64199
+          ]
+        }
+      ],
+      "version": "v002",
+      "phoneAssistance": "",
+      "allowReportBugs": "1"
+    },
+    {
+      "active": "1",
+      "idStation": 51,
+      "idUser": 117,
+      "wsUrl": "https://79.148.240.86:45022",
+      "brand": "SIN GRUPO",
+      "account": "3434138523DS2",
+      "siteId": "622ca94e-a2f3-4c7d-b4ec-0f76ef9531a1",
+      "name": "AUTOSERVEI M-3",
+      "logo": "https://ws.smartfuel.es/images/46a40ee1-b413-4cee-9c2f-e9b0ff3e5293.png",
+      "address": "C. De La Catalunya Nord, 21, 25241 Golmés, Lleida",
+      "latitude": 41.629718,
+      "longitude": 0.905858,
+      "services": {
+        "market": false,
+        "vending": false,
+        "restaurant": false,
+        "wash": true,
+        "automaticWash": false,
+        "manualWash": false,
+        "waterAndAir": true,
+        "toilets": true,
+        "showers": false,
+        "garage": false,
+        "lodgings": false,
+        "wifi": false,
+        "recreationalArea": false,
+        "parking": true,
+        "trucksParking": false,
+        "mobileHomeParking": false
+      },
+      "distanceInKm": 0,
+      "gasData": [
+        {
+          "idGasPrices": 63482,
+          "name": "GAS-OIL A                ",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.759,
+          "productCode": 1,
+          "color": "#FFFF82"
+        },
+        {
+          "idGasPrices": 63483,
+          "name": "SENSE PLOM 95            ",
+          "idTypeProduct": 5,
+          "nameTypeProduct": "SPlomo 95",
+          "price": 1.759,
+          "productCode": 5,
+          "color": "#00FF00"
+        }
+      ],
+      "fuellingPointData": [
+        {
+          "fuelPositionNumber": 1,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 101,
+            "major": 27
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            63482,
+            63483
+          ]
+        },
+        {
+          "fuelPositionNumber": 2,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 102,
+            "major": 27
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            63482,
+            63483
+          ]
+        }
+      ],
+      "version": "v002",
+      "phoneAssistance": "",
+      "allowReportBugs": "1"
+    },
+    {
+      "active": "1",
+      "idStation": 174,
+      "idUser": 117,
+      "wsUrl": "https://2.136.247.54:45022",
+      "brand": "AVIA",
+      "account": "3434138523DS2",
+      "siteId": "8cefd94c-9314-4da3-9d46-c80b8b267ae6",
+      "name": "AVIA PUENTE LA REINA",
+      "logo": "https://ws.smartfuel.es/images/46a40ee1-b413-4cee-9c2f-e9b0ff3e5293.png",
+      "address": "P.º Fray Vicente Bernedo, 0, 31100 Puente la Reina, Navarra",
+      "latitude": 42.670636,
+      "longitude": -1.815621,
+      "services": {
+        "market": true,
+        "vending": false,
+        "restaurant": false,
+        "wash": true,
+        "automaticWash": false,
+        "manualWash": false,
+        "waterAndAir": true,
+        "toilets": false,
+        "showers": false,
+        "garage": false,
+        "lodgings": false,
+        "wifi": false,
+        "recreationalArea": false,
+        "parking": false,
+        "trucksParking": false,
+        "mobileHomeParking": false
+      },
+      "distanceInKm": 0,
+      "gasData": [
+        {
+          "idGasPrices": 64243,
+          "name": "S/P 95 Octanos",
+          "idTypeProduct": 5,
+          "nameTypeProduct": "SPlomo 95",
+          "price": 1.784,
+          "productCode": 2,
+          "color": "#00A941"
+        },
+        {
+          "idGasPrices": 64244,
+          "name": "Innova",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.778,
+          "productCode": 3,
+          "color": "#C1C1C1"
+        },
+        {
+          "idGasPrices": 64245,
+          "name": "Gas. B Bonificado",
+          "idTypeProduct": 2,
+          "nameTypeProduct": "Gasóleo B",
+          "price": 1.399,
+          "productCode": 4,
+          "color": "#FF0000"
+        }
+      ],
+      "fuellingPointData": [
+        {
+          "fuelPositionNumber": 1,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 101,
+            "major": 85
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64243,
+            64244
+          ]
+        },
+        {
+          "fuelPositionNumber": 2,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 202,
+            "major": 85
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64243,
+            64244
+          ]
+        },
+        {
+          "fuelPositionNumber": 3,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 303,
+            "major": 85
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64243,
+            64244,
+            64245
+          ]
+        },
+        {
+          "fuelPositionNumber": 4,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 304,
+            "major": 85
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64243,
+            64244,
+            64245
+          ]
+        }
+      ],
+      "version": "v002",
+      "phoneAssistance": "",
+      "allowReportBugs": "0"
+    },
+    {
+      "active": "1",
+      "idStation": 172,
+      "idUser": 117,
+      "wsUrl": "https://83.48.18.239:45023",
+      "brand": "AVIA",
+      "account": "3434138523DS2",
+      "siteId": "65343ef6-6401-48c6-ae96-2fc5fe345a7d",
+      "name": "AVIA ZIZUR DERECHA",
+      "logo": "https://ws.smartfuel.es/images/46a40ee1-b413-4cee-9c2f-e9b0ff3e5293.png",
+      "address": "Av. Estella, 9, 31180 Zizur Mayor, Navarra",
+      "latitude": 42.79299,
+      "longitude": -1.68446,
+      "services": {
+        "market": true,
+        "vending": false,
+        "restaurant": false,
+        "wash": false,
+        "automaticWash": false,
+        "manualWash": false,
+        "waterAndAir": true,
+        "toilets": true,
+        "showers": false,
+        "garage": false,
+        "lodgings": false,
+        "wifi": false,
+        "recreationalArea": false,
+        "parking": false,
+        "trucksParking": false,
+        "mobileHomeParking": false
+      },
+      "distanceInKm": 0,
+      "gasData": [
+        {
+          "idGasPrices": 64234,
+          "name": "S/P 95 Octanos",
+          "idTypeProduct": 5,
+          "nameTypeProduct": "SPlomo 95",
+          "price": 1.778,
+          "productCode": 2,
+          "color": "#00A941"
+        },
+        {
+          "idGasPrices": 64235,
+          "name": "Innova",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.772,
+          "productCode": 3,
+          "color": "#C1C1C1"
+        },
+        {
+          "idGasPrices": 64236,
+          "name": "S/P 98 Octanos",
+          "idTypeProduct": 9,
+          "nameTypeProduct": "SPlomo 98",
+          "price": 1.908,
+          "productCode": 6,
+          "color": "#00E20C"
+        },
+        {
+          "idGasPrices": 64237,
+          "name": "Innova Max",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.842,
+          "productCode": 8,
+          "color": "#2C2C2C"
+        }
+      ],
+      "fuellingPointData": [
+        {
+          "fuelPositionNumber": 1,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 301,
+            "major": 85
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64234,
+            64235,
+            64236,
+            64237
+          ]
+        },
+        {
+          "fuelPositionNumber": 2,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 302,
+            "major": 85
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64234,
+            64235,
+            64236,
+            64237
+          ]
+        },
+        {
+          "fuelPositionNumber": 3,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 303,
+            "major": 85
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64234,
+            64235,
+            64236,
+            64237
+          ]
+        },
+        {
+          "fuelPositionNumber": 4,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 304,
+            "major": 85
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64234,
+            64235,
+            64236,
+            64237
+          ]
+        },
+        {
+          "fuelPositionNumber": 5,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 305,
+            "major": 85
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64234,
+            64235,
+            64236,
+            64237
+          ]
+        },
+        {
+          "fuelPositionNumber": 6,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 306,
+            "major": 85
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64234,
+            64235,
+            64236,
+            64237
+          ]
+        }
+      ],
+      "version": "v002",
+      "phoneAssistance": "",
+      "allowReportBugs": "1"
+    },
+    {
+      "active": "1",
+      "idStation": 173,
+      "idUser": 117,
+      "wsUrl": "https://83.48.18.239:45022",
+      "brand": "AVIA",
+      "account": "3434138523DS2",
+      "siteId": "3b576002-d374-4103-ba26-fab38bd70564",
+      "name": "AVIA ZIZUR IZQUIERDA",
+      "logo": "https://ws.smartfuel.es/images/46a40ee1-b413-4cee-9c2f-e9b0ff3e5293.png",
+      "address": "Av. Estella, 9, 31180 Zizur Mayor, Navarra",
+      "latitude": 42.79289,
+      "longitude": -1.68405,
+      "services": {
+        "market": false,
+        "vending": false,
+        "restaurant": false,
+        "wash": false,
+        "automaticWash": true,
+        "manualWash": true,
+        "waterAndAir": true,
+        "toilets": true,
+        "showers": false,
+        "garage": false,
+        "lodgings": false,
+        "wifi": false,
+        "recreationalArea": false,
+        "parking": false,
+        "trucksParking": false,
+        "mobileHomeParking": false
+      },
+      "distanceInKm": 0,
+      "gasData": [
+        {
+          "idGasPrices": 64238,
+          "name": "S/P 95 Octanos",
+          "idTypeProduct": 5,
+          "nameTypeProduct": "SPlomo 95",
+          "price": 1.778,
+          "productCode": 2,
+          "color": "#00A941"
+        },
+        {
+          "idGasPrices": 64239,
+          "name": "Innova",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.772,
+          "productCode": 3,
+          "color": "#C1C1C1"
+        },
+        {
+          "idGasPrices": 64240,
+          "name": "S/P 98 Octanos",
+          "idTypeProduct": 9,
+          "nameTypeProduct": "SPlomo 98",
+          "price": 1.908,
+          "productCode": 6,
+          "color": "#00E20C"
+        },
+        {
+          "idGasPrices": 64241,
+          "name": "Innova Max",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.842,
+          "productCode": 8,
+          "color": "#2C2C2C"
+        },
+        {
+          "idGasPrices": 64242,
+          "name": "ADBLUE",
+          "idTypeProduct": 7,
+          "nameTypeProduct": "AdBlue surtidor",
+          "price": 1.59,
+          "productCode": 9,
+          "color": "#16B1F0"
+        }
+      ],
+      "fuellingPointData": [
+        {
+          "fuelPositionNumber": 1,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 201,
+            "major": 85
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64238,
+            64239,
+            64240,
+            64241
+          ]
+        },
+        {
+          "fuelPositionNumber": 2,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 202,
+            "major": 85
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64238,
+            64239,
+            64240,
+            64241
+          ]
+        },
+        {
+          "fuelPositionNumber": 3,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 203,
+            "major": 85
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64238,
+            64239,
+            64240,
+            64241
+          ]
+        },
+        {
+          "fuelPositionNumber": 4,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 204,
+            "major": 85
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64238,
+            64239,
+            64240,
+            64241
+          ]
+        },
+        {
+          "fuelPositionNumber": 5,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 205,
+            "major": 85
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64238,
+            64239,
+            64240,
+            64241
+          ]
+        },
+        {
+          "fuelPositionNumber": 6,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 206,
+            "major": 85
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64238,
+            64239,
+            64240,
+            64241
+          ]
+        },
+        {
+          "fuelPositionNumber": 7,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 207,
+            "major": 85
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64242
+          ]
+        }
+      ],
+      "version": "v002",
+      "phoneAssistance": "",
+      "allowReportBugs": "1"
+    },
+    {
+      "active": "1",
+      "idStation": 35,
+      "idUser": 117,
+      "wsUrl": "https://37.10.168.39:45022",
+      "brand": "BALLUS",
+      "account": "3434138523DS2",
+      "siteId": "1db90c62-b9dd-4424-878d-cbc4dc6f5c7d",
+      "name": "BALLÚS PUIG REIG",
+      "logo": "https://ws.smartfuel.es/images/46a40ee1-b413-4cee-9c2f-e9b0ff3e5293.png",
+      "address": "Barri Colònia Cal Vidal, 20P, 08692 Puig Reig, Barcelona",
+      "latitude": 41.935784,
+      "longitude": 1.877463,
+      "services": {
+        "market": false,
+        "vending": false,
+        "restaurant": false,
+        "wash": false,
+        "automaticWash": false,
+        "manualWash": false,
+        "waterAndAir": true,
+        "toilets": true,
+        "showers": false,
+        "garage": false,
+        "lodgings": false,
+        "wifi": false,
+        "recreationalArea": false,
+        "parking": true,
+        "trucksParking": true,
+        "mobileHomeParking": false
+      },
+      "distanceInKm": 0,
+      "gasData": [
+        {
+          "idGasPrices": 64183,
+          "name": "Gasóleo A",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.733,
+          "productCode": 1,
+          "color": "#FBFF60"
+        },
+        {
+          "idGasPrices": 64184,
+          "name": "Sin Plomo 95",
+          "idTypeProduct": 5,
+          "nameTypeProduct": "SPlomo 95",
+          "price": 1.699,
+          "productCode": 5,
+          "color": "#00FF00"
+        }
+      ],
+      "fuellingPointData": [
+        {
+          "fuelPositionNumber": 1,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 101,
+            "major": 15
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64183,
+            64184
+          ]
+        },
+        {
+          "fuelPositionNumber": 2,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 102,
+            "major": 15
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64183,
+            64184
+          ]
+        },
+        {
+          "fuelPositionNumber": 3,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 103,
+            "major": 15
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64183,
+            64184
+          ]
+        },
+        {
+          "fuelPositionNumber": 4,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 104,
+            "major": 15
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64183,
+            64184
+          ]
+        }
+      ],
+      "version": "v002",
+      "phoneAssistance": "",
+      "allowReportBugs": "1"
+    },
+    {
+      "active": "1",
+      "idStation": 103,
+      "idUser": 117,
+      "wsUrl": "https://85.51.14.12:45022",
+      "brand": "SIN GRUPO",
+      "account": "3434138523DS2",
+      "siteId": "9bfd7147-ed6d-41a4-b07a-571d4fdcb48e",
+      "name": "BENZINERA VIDAGANY",
+      "logo": "https://ws.smartfuel.es/images/46a40ee1-b413-4cee-9c2f-e9b0ff3e5293.png",
+      "address": "C. Liria, 12, 46160 Líria, Valencia",
+      "latitude": 39.635651,
+      "longitude": -0.587033,
+      "services": {
+        "market": false,
+        "vending": false,
+        "restaurant": false,
+        "wash": true,
+        "automaticWash": true,
+        "manualWash": true,
+        "waterAndAir": false,
+        "toilets": true,
+        "showers": false,
+        "garage": false,
+        "lodgings": false,
+        "wifi": false,
+        "recreationalArea": false,
+        "parking": true,
+        "trucksParking": false,
+        "mobileHomeParking": false
+      },
+      "distanceInKm": 0,
+      "gasData": [
+        {
+          "idGasPrices": 64025,
+          "name": "Gasóleo A",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.719,
+          "productCode": 1,
+          "color": "#C9C000"
+        },
+        {
+          "idGasPrices": 64026,
+          "name": "Sin Plomo 95",
+          "idTypeProduct": 5,
+          "nameTypeProduct": "SPlomo 95",
+          "price": 1.719,
+          "productCode": 5,
+          "color": "#00E20C"
+        }
+      ],
+      "fuellingPointData": [
+        {
+          "fuelPositionNumber": 1,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a ",
+            "minor": 101,
+            "major": 66
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64025,
+            64026
+          ]
+        },
+        {
+          "fuelPositionNumber": 2,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a ",
+            "minor": 102,
+            "major": 66
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64025,
+            64026
+          ]
+        },
+        {
+          "fuelPositionNumber": 3,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a ",
+            "minor": 103,
+            "major": 66
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64025,
+            64026
+          ]
+        },
+        {
+          "fuelPositionNumber": 4,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a ",
+            "minor": 104,
+            "major": 66
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64025,
+            64026
+          ]
+        }
+      ],
+      "version": "v002",
+      "phoneAssistance": "",
+      "allowReportBugs": "1"
+    },
+    {
+      "active": "1",
+      "idStation": 122,
+      "idUser": 120,
+      "wsUrl": "https://217.127.139.91:45022",
+      "brand": "BEROIL",
+      "account": "3434138523DS2",
+      "siteId": "8b1125e9-df33-4f9e-8fdc-9d5a02d114c2",
+      "name": "BEROIL - AGUILAR",
+      "logo": "https://ws.smartfuel.es/images/a9658074-070e-428b-b2b1-b299fc779866.png",
+      "address": "Pl. Poligono Industrial, 121, 34800 Aguilar de Campoo, Palencia",
+      "latitude": 42.780768,
+      "longitude": -4.249663,
+      "services": {
+        "market": false,
+        "vending": false,
+        "restaurant": false,
+        "wash": false,
+        "automaticWash": false,
+        "manualWash": false,
+        "waterAndAir": true,
+        "toilets": true,
+        "showers": false,
+        "garage": false,
+        "lodgings": false,
+        "wifi": false,
+        "recreationalArea": false,
+        "parking": true,
+        "trucksParking": false,
+        "mobileHomeParking": false
+      },
+      "distanceInKm": 0,
+      "gasData": [
+        {
+          "idGasPrices": 64318,
+          "name": "Gasóleo A",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.759,
+          "productCode": 1,
+          "color": "#C9C000"
+        },
+        {
+          "idGasPrices": 64319,
+          "name": "Sin Plomo 95",
+          "idTypeProduct": 5,
+          "nameTypeProduct": "SPlomo 95",
+          "price": 1.759,
+          "productCode": 5,
+          "color": "#00FF00"
+        },
+        {
+          "idGasPrices": 64320,
+          "name": "ADBLUE ®",
+          "idTypeProduct": 7,
+          "nameTypeProduct": "AdBlue surtidor",
+          "price": 0.9,
+          "productCode": 7,
+          "color": "#6051E3"
+        },
+        {
+          "idGasPrices": 64321,
+          "name": "GAS A Camiones",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.759,
+          "productCode": 11,
+          "color": "#C9C000"
+        }
+      ],
+      "fuellingPointData": [
+        {
+          "fuelPositionNumber": 1,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 901,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64318,
+            64319,
+            64321
+          ]
+        },
+        {
+          "fuelPositionNumber": 2,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 902,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64318,
+            64319,
+            64321
+          ]
+        },
+        {
+          "fuelPositionNumber": 3,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 903,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64320
+          ]
+        }
+      ],
+      "version": "v002",
+      "phoneAssistance": "",
+      "allowReportBugs": "1"
+    },
+    {
+      "active": "1",
+      "idStation": 126,
+      "idUser": 120,
+      "wsUrl": "https://88.2.219.47:45022",
+      "brand": "BEROIL",
+      "account": "3434138523DS2",
+      "siteId": "397e07d2-3032-427c-a349-f3efd88977f5",
+      "name": "BEROIL - ARANDA",
+      "logo": "https://ws.smartfuel.es/images/a9658074-070e-428b-b2b1-b299fc779866.png",
+      "address": "Av. Portugal, 82, 09400 Aranda de Duero, Burgos",
+      "latitude": 41.666736,
+      "longitude": -3.726701,
+      "services": {
+        "market": false,
+        "vending": false,
+        "restaurant": false,
+        "wash": true,
+        "automaticWash": false,
+        "manualWash": false,
+        "waterAndAir": true,
+        "toilets": false,
+        "showers": false,
+        "garage": false,
+        "lodgings": false,
+        "wifi": false,
+        "recreationalArea": false,
+        "parking": true,
+        "trucksParking": false,
+        "mobileHomeParking": false
+      },
+      "distanceInKm": 0,
+      "gasData": [
+        {
+          "idGasPrices": 64324,
+          "name": "Gasóleo B",
+          "idTypeProduct": 2,
+          "nameTypeProduct": "Gasóleo B",
+          "price": 1.259,
+          "productCode": 3,
+          "color": "#53A9FF"
+        },
+        {
+          "idGasPrices": 64325,
+          "name": "Sin Plomo 95",
+          "idTypeProduct": 5,
+          "nameTypeProduct": "SPlomo 95",
+          "price": 1.759,
+          "productCode": 5,
+          "color": "#00FF00"
+        },
+        {
+          "idGasPrices": 64326,
+          "name": "ADBLUE ®",
+          "idTypeProduct": 7,
+          "nameTypeProduct": "AdBlue surtidor",
+          "price": 0.9,
+          "productCode": 7,
+          "color": "#6051E3"
+        },
+        {
+          "idGasPrices": 64327,
+          "name": "GAS A Camiones",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.759,
+          "productCode": 11,
+          "color": "#C9C000"
+        },
+        {
+          "idGasPrices": 64328,
+          "name": "Gas A",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.759,
+          "productCode": 15,
+          "color": "#F5841B"
+        }
+      ],
+      "fuellingPointData": [
+        {
+          "fuelPositionNumber": 1,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1001,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64325,
+            64327,
+            64328
+          ]
+        },
+        {
+          "fuelPositionNumber": 2,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1002,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64326
+          ]
+        },
+        {
+          "fuelPositionNumber": 3,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1003,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64325,
+            64327,
+            64328
+          ]
+        },
+        {
+          "fuelPositionNumber": 4,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1004,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64326
+          ]
+        },
+        {
+          "fuelPositionNumber": 5,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1005,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64324,
+            64327
+          ]
+        },
+        {
+          "fuelPositionNumber": 6,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1006,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64326
+          ]
+        },
+        {
+          "fuelPositionNumber": 7,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1007,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64324,
+            64327
+          ]
+        },
+        {
+          "fuelPositionNumber": 8,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1008,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64326
+          ]
+        }
+      ],
+      "version": "v002",
+      "phoneAssistance": "",
+      "allowReportBugs": "1"
+    },
+    {
+      "active": "1",
+      "idStation": 123,
+      "idUser": 120,
+      "wsUrl": "https://80.26.48.80:45022",
+      "brand": "BEROIL",
+      "account": "3434138523DS2",
+      "siteId": "92050c6f-bc9c-459a-886d-421231aa499c",
+      "name": "BEROIL - BOCEGUILLAS",
+      "logo": "https://ws.smartfuel.es/images/a9658074-070e-428b-b2b1-b299fc779866.png",
+      "address": "Ctra. Madrid-Irún, Km. 116.7, 40560 Boceguillas, Segovia",
+      "latitude": 41.329385,
+      "longitude": -3.633507,
+      "services": {
+        "market": false,
+        "vending": false,
+        "restaurant": false,
+        "wash": false,
+        "automaticWash": false,
+        "manualWash": false,
+        "waterAndAir": false,
+        "toilets": false,
+        "showers": false,
+        "garage": false,
+        "lodgings": false,
+        "wifi": false,
+        "recreationalArea": false,
+        "parking": true,
+        "trucksParking": false,
+        "mobileHomeParking": false
+      },
+      "distanceInKm": 0,
+      "gasData": [
+        {
+          "idGasPrices": 64363,
+          "name": "Sin Plomo 95",
+          "idTypeProduct": 5,
+          "nameTypeProduct": "SPlomo 95",
+          "price": 1.759,
+          "productCode": 5,
+          "color": "#00FF00"
+        },
+        {
+          "idGasPrices": 64364,
+          "name": "ADBLUE ®",
+          "idTypeProduct": 7,
+          "nameTypeProduct": "AdBlue surtidor",
+          "price": 0.9,
+          "productCode": 7,
+          "color": "#6051E3"
+        },
+        {
+          "idGasPrices": 64365,
+          "name": "GAS A Camiones",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.759,
+          "productCode": 11,
+          "color": "#C9C000"
+        },
+        {
+          "idGasPrices": 64366,
+          "name": "Gas A",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.759,
+          "productCode": 15,
+          "color": "#F5841B"
+        }
+      ],
+      "fuellingPointData": [
+        {
+          "fuelPositionNumber": 1,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a ",
+            "minor": 1301,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64363,
+            64365,
+            64366
+          ]
+        },
+        {
+          "fuelPositionNumber": 2,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a ",
+            "minor": 1302,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64363,
+            64365,
+            64366
+          ]
+        },
+        {
+          "fuelPositionNumber": 3,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a ",
+            "minor": 1303,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64364
+          ]
+        }
+      ],
+      "version": "v002",
+      "phoneAssistance": "",
+      "allowReportBugs": "1"
+    },
+    {
+      "active": "1",
+      "idStation": 120,
+      "idUser": 120,
+      "wsUrl": "https://80.38.161.70:45022",
+      "brand": "BEROIL",
+      "account": "3434138523DS2",
+      "siteId": "4687dd99-3ed5-48cd-97d7-10295f16d347",
+      "name": "BEROIL - BRICOLEAL ARANDA",
+      "logo": "https://ws.smartfuel.es/images/a9658074-070e-428b-b2b1-b299fc779866.png",
+      "address": "Antigua N-I KM.161, 09400 Aranda de Duero, Burgos",
+      "latitude": 41.686848,
+      "longitude": -3.68439,
+      "services": {
+        "market": false,
+        "vending": false,
+        "restaurant": false,
+        "wash": false,
+        "automaticWash": false,
+        "manualWash": false,
+        "waterAndAir": false,
+        "toilets": true,
+        "showers": false,
+        "garage": false,
+        "lodgings": false,
+        "wifi": false,
+        "recreationalArea": false,
+        "parking": true,
+        "trucksParking": false,
+        "mobileHomeParking": false
+      },
+      "distanceInKm": 0,
+      "gasData": [
+        {
+          "idGasPrices": 64312,
+          "name": "Sin Plomo 95",
+          "idTypeProduct": 5,
+          "nameTypeProduct": "SPlomo 95",
+          "price": 1.729,
+          "productCode": 5,
+          "color": "#00FF00"
+        },
+        {
+          "idGasPrices": 64313,
+          "name": "Gas A",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.729,
+          "productCode": 15,
+          "color": "#F5841B"
+        }
+      ],
+      "fuellingPointData": [
+        {
+          "fuelPositionNumber": 1,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1201,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64312,
+            64313
+          ]
+        },
+        {
+          "fuelPositionNumber": 2,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1202,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64312,
+            64313
+          ]
+        },
+        {
+          "fuelPositionNumber": 3,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1203,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64312,
+            64313
+          ]
+        },
+        {
+          "fuelPositionNumber": 4,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1204,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64312,
+            64313
+          ]
+        },
+        {
+          "fuelPositionNumber": 5,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1205,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64313
+          ]
+        }
+      ],
+      "version": "v002",
+      "phoneAssistance": "",
+      "allowReportBugs": "1"
+    },
+    {
+      "active": "1",
+      "idStation": 130,
+      "idUser": 120,
+      "wsUrl": "https://80.24.175.184:45022",
+      "brand": "BEROIL",
+      "account": "3434138523DS2",
+      "siteId": "f1ac0c80-64a7-489b-be1a-0b0ca6896a64",
+      "name": "BEROIL - ESTEPAR",
+      "logo": "https://ws.smartfuel.es/images/a9658074-070e-428b-b2b1-b299fc779866.png",
+      "address": "N-620 KM 20, 09239 Estépar, Burgos",
+      "latitude": 42.278467,
+      "longitude": -3.891621,
+      "services": {
+        "market": false,
+        "vending": false,
+        "restaurant": true,
+        "wash": false,
+        "automaticWash": false,
+        "manualWash": false,
+        "waterAndAir": true,
+        "toilets": true,
+        "showers": true,
+        "garage": false,
+        "lodgings": false,
+        "wifi": false,
+        "recreationalArea": false,
+        "parking": true,
+        "trucksParking": true,
+        "mobileHomeParking": true
+      },
+      "distanceInKm": 0,
+      "gasData": [
+        {
+          "idGasPrices": 64338,
+          "name": "Gasóleo A",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.759,
+          "productCode": 1,
+          "color": "#C9C000"
+        },
+        {
+          "idGasPrices": 64339,
+          "name": "Gasóleo B",
+          "idTypeProduct": 2,
+          "nameTypeProduct": "Gasóleo B",
+          "price": 1.259,
+          "productCode": 3,
+          "color": "#53A9FF"
+        },
+        {
+          "idGasPrices": 64340,
+          "name": "Sin Plomo 95",
+          "idTypeProduct": 5,
+          "nameTypeProduct": "SPlomo 95",
+          "price": 1.759,
+          "productCode": 5,
+          "color": "#00FF00"
+        },
+        {
+          "idGasPrices": 64341,
+          "name": "Gasóleo Additive 10",
+          "idTypeProduct": 8,
+          "nameTypeProduct": "Gasóleo A ESP",
+          "price": 1.769,
+          "productCode": 19,
+          "color": "#F5841B"
+        }
+      ],
+      "fuellingPointData": [
+        {
+          "fuelPositionNumber": 1,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 501,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64338,
+            64339,
+            64340,
+            64341
+          ]
+        },
+        {
+          "fuelPositionNumber": 2,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 502,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64338,
+            64339,
+            64340,
+            64341
+          ]
+        },
+        {
+          "fuelPositionNumber": 3,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 503,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64338,
+            64339,
+            64340,
+            64341
+          ]
+        },
+        {
+          "fuelPositionNumber": 4,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 504,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64338,
+            64339,
+            64340,
+            64341
+          ]
+        },
+        {
+          "fuelPositionNumber": 5,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 505,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64338
+          ]
+        },
+        {
+          "fuelPositionNumber": 6,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 506,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64338
+          ]
+        },
+        {
+          "fuelPositionNumber": 7,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 507,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64338
+          ]
+        },
+        {
+          "fuelPositionNumber": 8,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 508,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64338
+          ]
+        },
+        {
+          "fuelPositionNumber": 9,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 509,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64338
+          ]
+        },
+        {
+          "fuelPositionNumber": 10,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 510,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64338
+          ]
+        }
+      ],
+      "version": "v002",
+      "phoneAssistance": "",
+      "allowReportBugs": "1"
+    },
+    {
+      "active": "1",
+      "idStation": 129,
+      "idUser": 120,
+      "wsUrl": "https://80.24.175.185:45022",
+      "brand": "BEROIL",
+      "account": "3434138523DS2",
+      "siteId": "e678ce7d-dee8-4c09-8074-521bb0eb4b7a",
+      "name": "BEROIL - FORO",
+      "logo": "https://ws.smartfuel.es/images/a9658074-070e-428b-b2b1-b299fc779866.png",
+      "address": "C. Alcalde Martín Cobos, 19, 09007 Burgos",
+      "latitude": 42.360651,
+      "longitude": -3.652842,
+      "services": {
+        "market": false,
+        "vending": false,
+        "restaurant": false,
+        "wash": true,
+        "automaticWash": false,
+        "manualWash": false,
+        "waterAndAir": true,
+        "toilets": false,
+        "showers": false,
+        "garage": false,
+        "lodgings": false,
+        "wifi": false,
+        "recreationalArea": false,
+        "parking": false,
+        "trucksParking": false,
+        "mobileHomeParking": false
+      },
+      "distanceInKm": 0,
+      "gasData": [
+        {
+          "idGasPrices": 64334,
+          "name": "Sin Plomo 95",
+          "idTypeProduct": 5,
+          "nameTypeProduct": "SPlomo 95",
+          "price": 1.759,
+          "productCode": 5,
+          "color": "#00FF00"
+        },
+        {
+          "idGasPrices": 64335,
+          "name": "ADBLUE ®",
+          "idTypeProduct": 7,
+          "nameTypeProduct": "AdBlue surtidor",
+          "price": 0.9,
+          "productCode": 7,
+          "color": "#6051E3"
+        },
+        {
+          "idGasPrices": 64336,
+          "name": "GAS A Camiones",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.759,
+          "productCode": 11,
+          "color": "#C9C000"
+        },
+        {
+          "idGasPrices": 64337,
+          "name": "Gas A",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.759,
+          "productCode": 15,
+          "color": "#F5841B"
+        }
+      ],
+      "fuellingPointData": [
+        {
+          "fuelPositionNumber": 1,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 101,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64334,
+            64337
+          ]
+        },
+        {
+          "fuelPositionNumber": 2,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 102,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64334,
+            64337
+          ]
+        },
+        {
+          "fuelPositionNumber": 3,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 103,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64334,
+            64336,
+            64337
+          ]
+        },
+        {
+          "fuelPositionNumber": 4,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 104,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64334,
+            64336,
+            64337
+          ]
+        },
+        {
+          "fuelPositionNumber": 5,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 105,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64335
+          ]
+        },
+        {
+          "fuelPositionNumber": 6,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 106,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64335
+          ]
+        },
+        {
+          "fuelPositionNumber": 7,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 107,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64334,
+            64337
+          ]
+        },
+        {
+          "fuelPositionNumber": 8,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 108,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64334,
+            64337
+          ]
+        }
+      ],
+      "version": "v002",
+      "phoneAssistance": "",
+      "allowReportBugs": "1"
+    },
+    {
+      "active": "1",
+      "idStation": 128,
+      "idUser": 120,
+      "wsUrl": "https://80.37.14.101:45022",
+      "brand": "BEROIL",
+      "account": "3434138523DS2",
+      "siteId": "45b6dc92-c770-4c18-bbce-1cabbb371149",
+      "name": "BEROIL - FUENTECEN",
+      "logo": "https://ws.smartfuel.es/images/a9658074-070e-428b-b2b1-b299fc779866.png",
+      "address": "N-122 KM, 286, 09315 Fuentecén, Burgos",
+      "latitude": 41.626157,
+      "longitude": -3.878337,
+      "services": {
+        "market": false,
+        "vending": false,
+        "restaurant": true,
+        "wash": false,
+        "automaticWash": false,
+        "manualWash": false,
+        "waterAndAir": true,
+        "toilets": true,
+        "showers": false,
+        "garage": false,
+        "lodgings": false,
+        "wifi": false,
+        "recreationalArea": false,
+        "parking": true,
+        "trucksParking": false,
+        "mobileHomeParking": false
+      },
+      "distanceInKm": 0,
+      "gasData": [
+        {
+          "idGasPrices": 64329,
+          "name": "Gasóleo A",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.759,
+          "productCode": 1,
+          "color": "#C9C000"
+        },
+        {
+          "idGasPrices": 64330,
+          "name": "Gasóleo B",
+          "idTypeProduct": 2,
+          "nameTypeProduct": "Gasóleo B",
+          "price": 1.259,
+          "productCode": 3,
+          "color": "#53A9FF"
+        },
+        {
+          "idGasPrices": 64331,
+          "name": "Sin Plomo 95",
+          "idTypeProduct": 5,
+          "nameTypeProduct": "SPlomo 95",
+          "price": 1.759,
+          "productCode": 5,
+          "color": "#00FF00"
+        },
+        {
+          "idGasPrices": 64332,
+          "name": "ADBLUE ®",
+          "idTypeProduct": 7,
+          "nameTypeProduct": "AdBlue surtidor",
+          "price": 0.9,
+          "productCode": 7,
+          "color": "#6051E3"
+        },
+        {
+          "idGasPrices": 64333,
+          "name": "GAS A Camiones",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.759,
+          "productCode": 11,
+          "color": "#C9C000"
+        }
+      ],
+      "fuellingPointData": [
+        {
+          "fuelPositionNumber": 1,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1101,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64329,
+            64330,
+            64331
+          ]
+        },
+        {
+          "fuelPositionNumber": 2,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1102,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64329,
+            64330,
+            64331
+          ]
+        },
+        {
+          "fuelPositionNumber": 3,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1103,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64332
+          ]
+        },
+        {
+          "fuelPositionNumber": 4,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1104,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64332
+          ]
+        },
+        {
+          "fuelPositionNumber": 5,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1105,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64329
+          ]
+        },
+        {
+          "fuelPositionNumber": 6,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1106,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64333
+          ]
+        },
+        {
+          "fuelPositionNumber": 7,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1107,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64330
+          ]
+        },
+        {
+          "fuelPositionNumber": 8,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1108,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64330
+          ]
+        },
+        {
+          "fuelPositionNumber": 9,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1109,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64332
+          ]
+        }
+      ],
+      "version": "v002",
+      "phoneAssistance": "",
+      "allowReportBugs": "1"
+    },
+    {
+      "active": "1",
+      "idStation": 125,
+      "idUser": 120,
+      "wsUrl": "https://80.37.14.6:45022",
+      "brand": "BEROIL",
+      "account": "3434138523DS2",
+      "siteId": "e1e09a12-1ae9-46ff-895e-61438591c7c8",
+      "name": "BEROIL - LANDILLA",
+      "logo": "https://ws.smartfuel.es/images/a9658074-070e-428b-b2b1-b299fc779866.png",
+      "address": "NI salida, Av. Pedernales, 6, 09195 Villagonzalo Pedernales, Burgos",
+      "latitude": 42.306745,
+      "longitude": -3.703054,
+      "services": {
+        "market": false,
+        "vending": false,
+        "restaurant": true,
+        "wash": true,
+        "automaticWash": false,
+        "manualWash": false,
+        "waterAndAir": true,
+        "toilets": true,
+        "showers": false,
+        "garage": false,
+        "lodgings": false,
+        "wifi": false,
+        "recreationalArea": true,
+        "parking": true,
+        "trucksParking": false,
+        "mobileHomeParking": false
+      },
+      "distanceInKm": 0,
+      "gasData": [
+        {
+          "idGasPrices": 64322,
+          "name": "Gasóleo A",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.749,
+          "productCode": 1,
+          "color": "#C9C000"
+        },
+        {
+          "idGasPrices": 64323,
+          "name": "Sin Plomo 95",
+          "idTypeProduct": 5,
+          "nameTypeProduct": "SPlomo 95",
+          "price": 1.759,
+          "productCode": 5,
+          "color": "#00FF00"
+        }
+      ],
+      "fuellingPointData": [
+        {
+          "fuelPositionNumber": 1,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 201,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64322,
+            64323
+          ]
+        },
+        {
+          "fuelPositionNumber": 2,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 202,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64322,
+            64323
+          ]
+        }
+      ],
+      "version": "v002",
+      "phoneAssistance": "",
+      "allowReportBugs": "1"
+    },
+    {
+      "active": "1",
+      "idStation": 196,
+      "idUser": 120,
+      "wsUrl": "https://37.10.179.45:45022",
+      "brand": "BEROIL",
+      "account": "3434138523DS2",
+      "siteId": "de85aaf8-48e2-4f9c-baab-89fba4ce80e4",
+      "name": "BEROIL - MADRID",
+      "logo": "https://ws.smartfuel.es/images/a9658074-070e-428b-b2b1-b299fc779866.png",
+      "address": "C. Sofía esq. Calle Moscú, 28022 Madrid",
+      "latitude": 40.425716852325,
+      "longitude": -3.6004693332631,
+      "services": {
+        "market": false,
+        "vending": false,
+        "restaurant": false,
+        "wash": true,
+        "automaticWash": false,
+        "manualWash": true,
+        "waterAndAir": true,
+        "toilets": false,
+        "showers": false,
+        "garage": false,
+        "lodgings": false,
+        "wifi": false,
+        "recreationalArea": false,
+        "parking": true,
+        "trucksParking": false,
+        "mobileHomeParking": false
+      },
+      "distanceInKm": 0,
+      "gasData": [
+        {
+          "idGasPrices": 64352,
+          "name": "Sin Plomo 95",
+          "idTypeProduct": 5,
+          "nameTypeProduct": "SPlomo 95",
+          "price": 1.799,
+          "productCode": 5,
+          "color": "#00FF00"
+        },
+        {
+          "idGasPrices": 64353,
+          "name": "ADBLUE ®",
+          "idTypeProduct": 7,
+          "nameTypeProduct": "AdBlue surtidor",
+          "price": 0.9,
+          "productCode": 7,
+          "color": "#6051E3"
+        },
+        {
+          "idGasPrices": 64354,
+          "name": "Gas A",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.789,
+          "productCode": 15,
+          "color": "#F5841B"
+        }
+      ],
+      "fuellingPointData": [
+        {
+          "fuelPositionNumber": 1,
+          "beacon": {
+            "uuid": "CRRf",
+            "minor": 1901,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64352,
+            64353,
+            64354
+          ]
+        },
+        {
+          "fuelPositionNumber": 2,
+          "beacon": {
+            "uuid": "kSk9",
+            "minor": 1902,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64352,
+            64353,
+            64354
+          ]
+        },
+        {
+          "fuelPositionNumber": 3,
+          "beacon": {
+            "uuid": "ig87",
+            "minor": 1903,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64352,
+            64354
+          ]
+        },
+        {
+          "fuelPositionNumber": 4,
+          "beacon": {
+            "uuid": "P4qU",
+            "minor": 1904,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64352,
+            64354
+          ]
+        }
+      ],
+      "version": "v002",
+      "phoneAssistance": "",
+      "allowReportBugs": "1"
+    },
+    {
+      "active": "1",
+      "idStation": 127,
+      "idUser": 120,
+      "wsUrl": "https://80.24.175.177:45022",
+      "brand": "BEROIL",
+      "account": "3434138523DS2",
+      "siteId": "07f55f1e-df9b-42f7-9a82-cb83498cc05c",
+      "name": "BEROIL - MEDINA",
+      "logo": "https://ws.smartfuel.es/images/a9658074-070e-428b-b2b1-b299fc779866.png",
+      "address": "Pol. Navas 1A, 09500 Medina de Pomar, Burgos",
+      "latitude": 42.943305,
+      "longitude": -3.484783,
+      "services": {
+        "market": false,
+        "vending": false,
+        "restaurant": false,
+        "wash": true,
+        "automaticWash": true,
+        "manualWash": true,
+        "waterAndAir": true,
+        "toilets": true,
+        "showers": false,
+        "garage": false,
+        "lodgings": false,
+        "wifi": false,
+        "recreationalArea": false,
+        "parking": false,
+        "trucksParking": false,
+        "mobileHomeParking": false
+      },
+      "distanceInKm": 0,
+      "gasData": [
+        {
+          "idGasPrices": 63537,
+          "name": "Gasóleo A",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.799,
+          "productCode": 1,
+          "color": "#C9C000"
+        },
+        {
+          "idGasPrices": 63538,
+          "name": "Gasóleo B",
+          "idTypeProduct": 2,
+          "nameTypeProduct": "Gasóleo B",
+          "price": 1.539,
+          "productCode": 3,
+          "color": "#53A9FF"
+        },
+        {
+          "idGasPrices": 63539,
+          "name": "Sin Plomo 95",
+          "idTypeProduct": 5,
+          "nameTypeProduct": "SPlomo 95",
+          "price": 1.899,
+          "productCode": 5,
+          "color": "#00FF00"
+        },
+        {
+          "idGasPrices": 63540,
+          "name": "ADBLUE ®",
+          "idTypeProduct": 7,
+          "nameTypeProduct": "AdBlue surtidor",
+          "price": 0.9,
+          "productCode": 7,
+          "color": "#6051E3"
+        },
+        {
+          "idGasPrices": 63541,
+          "name": "D. INOVA 10 +",
+          "idTypeProduct": 8,
+          "nameTypeProduct": "Gasóleo A ESP",
+          "price": 1.829,
+          "productCode": 8,
+          "color": "#FFFF00"
+        },
+        {
+          "idGasPrices": 63542,
+          "name": "DIESEL",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.799,
+          "productCode": 92,
+          "color": "#C9C000"
+        }
+      ],
+      "fuellingPointData": [
+        {
+          "fuelPositionNumber": 1,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 801,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            63537,
+            63538,
+            63539,
+            63541,
+            63542
+          ]
+        },
+        {
+          "fuelPositionNumber": 2,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 802,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            63537,
+            63538,
+            63539,
+            63541,
+            63542
+          ]
+        },
+        {
+          "fuelPositionNumber": 3,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 803,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            63537,
+            63542
+          ]
+        },
+        {
+          "fuelPositionNumber": 4,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 804,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            63537,
+            63542
+          ]
+        },
+        {
+          "fuelPositionNumber": 6,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 805,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            63540
+          ]
+        }
+      ],
+      "version": "v002",
+      "phoneAssistance": "",
+      "allowReportBugs": "1"
+    },
+    {
+      "active": "1",
+      "idStation": 124,
+      "idUser": 120,
+      "wsUrl": "https://80.32.221.215:45022",
+      "brand": "BEROIL",
+      "account": "3434138523DS2",
+      "siteId": "42f15b0c-8818-4583-ac84-f95bb30fa8c4",
+      "name": "BEROIL - MIRANDA",
+      "logo": "https://ws.smartfuel.es/images/a9658074-070e-428b-b2b1-b299fc779866.png",
+      "address": "Pol. Ind. Bayas, 09218 Miranda de Ebro, Burgos",
+      "latitude": 42.696806,
+      "longitude": -2.915413,
+      "services": {
+        "market": false,
+        "vending": false,
+        "restaurant": false,
+        "wash": false,
+        "automaticWash": false,
+        "manualWash": false,
+        "waterAndAir": false,
+        "toilets": false,
+        "showers": false,
+        "garage": false,
+        "lodgings": false,
+        "wifi": false,
+        "recreationalArea": false,
+        "parking": true,
+        "trucksParking": false,
+        "mobileHomeParking": false
+      },
+      "distanceInKm": 0,
+      "gasData": [
+        {
+          "idGasPrices": 64367,
+          "name": "Sin Plomo 95",
+          "idTypeProduct": 5,
+          "nameTypeProduct": "SPlomo 95",
+          "price": 1.759,
+          "productCode": 5,
+          "color": "#00FF00"
+        },
+        {
+          "idGasPrices": 64368,
+          "name": "ADBLUE ®",
+          "idTypeProduct": 7,
+          "nameTypeProduct": "AdBlue surtidor",
+          "price": 0.9,
+          "productCode": 7,
+          "color": "#6051E3"
+        },
+        {
+          "idGasPrices": 64369,
+          "name": "GAS A Camiones",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.759,
+          "productCode": 11,
+          "color": "#C9C000"
+        },
+        {
+          "idGasPrices": 64370,
+          "name": "Gas A",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.759,
+          "productCode": 15,
+          "color": "#F5841B"
+        }
+      ],
+      "fuellingPointData": [
+        {
+          "fuelPositionNumber": 1,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 601,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64367,
+            64369,
+            64370
+          ]
+        },
+        {
+          "fuelPositionNumber": 2,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 602,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64367,
+            64369,
+            64370
+          ]
+        },
+        {
+          "fuelPositionNumber": 3,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 603,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64368
+          ]
+        }
+      ],
+      "version": "v002",
+      "phoneAssistance": "",
+      "allowReportBugs": "1"
+    },
+    {
+      "active": "1",
+      "idStation": 194,
+      "idUser": 120,
+      "wsUrl": "https://37.10.168.216:45022",
+      "brand": "BEROIL",
+      "account": "3434138523DS2",
+      "siteId": "d4dc5716-beae-4c8e-af53-d0181c25e21d",
+      "name": "BEROIL - NAVALMANZANO",
+      "logo": "https://ws.smartfuel.es/images/a9658074-070e-428b-b2b1-b299fc779866.png",
+      "address": "SG-332, 40280 Navalmanzano, Segovia",
+      "latitude": 41.209166279054,
+      "longitude": -4.2677564745939,
+      "services": {
+        "market": false,
+        "vending": false,
+        "restaurant": false,
+        "wash": false,
+        "automaticWash": false,
+        "manualWash": false,
+        "waterAndAir": false,
+        "toilets": false,
+        "showers": false,
+        "garage": false,
+        "lodgings": false,
+        "wifi": false,
+        "recreationalArea": false,
+        "parking": true,
+        "trucksParking": false,
+        "mobileHomeParking": false
+      },
+      "distanceInKm": 0,
+      "gasData": [
+        {
+          "idGasPrices": 64348,
+          "name": "Gasóleo A",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.709,
+          "productCode": 1,
+          "color": "#C9C000"
+        },
+        {
+          "idGasPrices": 64349,
+          "name": "Sin Plomo 95",
+          "idTypeProduct": 5,
+          "nameTypeProduct": "SPlomo 95",
+          "price": 1.759,
+          "productCode": 5,
+          "color": "#00FF00"
+        },
+        {
+          "idGasPrices": 64350,
+          "name": "ADBLUE ®",
+          "idTypeProduct": 7,
+          "nameTypeProduct": "AdBlue surtidor",
+          "price": 0.9,
+          "productCode": 7,
+          "color": "#6051E3"
+        },
+        {
+          "idGasPrices": 64351,
+          "name": "GAS A Camiones",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.709,
+          "productCode": 11,
+          "color": "#C9C000"
+        }
+      ],
+      "fuellingPointData": [
+        {
+          "fuelPositionNumber": 1,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1701,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64348,
+            64349,
+            64351
+          ]
+        },
+        {
+          "fuelPositionNumber": 2,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1702,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64348,
+            64349,
+            64351
+          ]
+        },
+        {
+          "fuelPositionNumber": 3,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1703,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64350
+          ]
+        },
+        {
+          "fuelPositionNumber": 4,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1704,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64350
+          ]
+        }
+      ],
+      "version": "v002",
+      "phoneAssistance": "",
+      "allowReportBugs": "1"
+    },
+    {
+      "active": "1",
+      "idStation": 121,
+      "idUser": 120,
+      "wsUrl": "https://37.10.170.173:45022",
+      "brand": "BEROIL",
+      "account": "3434138523DS2",
+      "siteId": "e7552f80-f594-4f92-bd46-770b30d58caf",
+      "name": "BEROIL - PALENCIA",
+      "logo": "https://ws.smartfuel.es/images/a9658074-070e-428b-b2b1-b299fc779866.png",
+      "address": "Ctra. Santander, KM. 12, 3, 34003 Palencia, Palencia",
+      "latitude": 42.031512,
+      "longitude": -4.52405,
+      "services": {
+        "market": false,
+        "vending": false,
+        "restaurant": false,
+        "wash": false,
+        "automaticWash": false,
+        "manualWash": false,
+        "waterAndAir": true,
+        "toilets": false,
+        "showers": false,
+        "garage": false,
+        "lodgings": false,
+        "wifi": false,
+        "recreationalArea": false,
+        "parking": true,
+        "trucksParking": true,
+        "mobileHomeParking": false
+      },
+      "distanceInKm": 0,
+      "gasData": [
+        {
+          "idGasPrices": 64314,
+          "name": "Gasóleo A",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.699,
+          "productCode": 1,
+          "color": "#C9C000"
+        },
+        {
+          "idGasPrices": 64315,
+          "name": "Sin Plomo 95",
+          "idTypeProduct": 5,
+          "nameTypeProduct": "SPlomo 95",
+          "price": 1.729,
+          "productCode": 5,
+          "color": "#00FF00"
+        },
+        {
+          "idGasPrices": 64316,
+          "name": "ADBLUE ®",
+          "idTypeProduct": 7,
+          "nameTypeProduct": "AdBlue surtidor",
+          "price": 0.9,
+          "productCode": 7,
+          "color": "#6051E3"
+        },
+        {
+          "idGasPrices": 64317,
+          "name": "GAS A Camiones",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.699,
+          "productCode": 11,
+          "color": "#C9C000"
+        }
+      ],
+      "fuellingPointData": [
+        {
+          "fuelPositionNumber": 1,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1401,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64314
+          ]
+        },
+        {
+          "fuelPositionNumber": 2,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1402,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64315
+          ]
+        },
+        {
+          "fuelPositionNumber": 3,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1403,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64317
+          ]
+        },
+        {
+          "fuelPositionNumber": 4,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1404,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64317
+          ]
+        },
+        {
+          "fuelPositionNumber": 5,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1405,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64316
+          ]
+        },
+        {
+          "fuelPositionNumber": 6,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1406,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64316
+          ]
+        },
+        {
+          "fuelPositionNumber": 7,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1407,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64314,
+            64315,
+            64317
+          ]
+        },
+        {
+          "fuelPositionNumber": 8,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1408,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64314,
+            64315,
+            64317
+          ]
+        }
+      ],
+      "version": "v002",
+      "phoneAssistance": "",
+      "allowReportBugs": "1"
+    },
+    {
+      "active": "1",
+      "idStation": 131,
+      "idUser": 120,
+      "wsUrl": "https://83.56.39.68:45022",
+      "brand": "BEROIL",
+      "account": "3434138523DS2",
+      "siteId": "53f7b4f7-0450-46f9-ba3b-11ac6e6720f0",
+      "name": "BEROIL - RUBENA",
+      "logo": "https://ws.smartfuel.es/images/a9658074-070e-428b-b2b1-b299fc779866.png",
+      "address": "Ctra. Madrid-Irun N-1, kilometro 247, 09199 Rubena, Burgos",
+      "latitude": 42.376656,
+      "longitude": -3.590829,
+      "services": {
+        "market": true,
+        "vending": false,
+        "restaurant": true,
+        "wash": false,
+        "automaticWash": false,
+        "manualWash": false,
+        "waterAndAir": true,
+        "toilets": true,
+        "showers": false,
+        "garage": false,
+        "lodgings": false,
+        "wifi": false,
+        "recreationalArea": true,
+        "parking": true,
+        "trucksParking": true,
+        "mobileHomeParking": false
+      },
+      "distanceInKm": 0,
+      "gasData": [
+        {
+          "idGasPrices": 64298,
+          "name": "Gasóleo A",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.759,
+          "productCode": 1,
+          "color": "#C9C000"
+        },
+        {
+          "idGasPrices": 64299,
+          "name": "Sin Plomo 95",
+          "idTypeProduct": 5,
+          "nameTypeProduct": "SPlomo 95",
+          "price": 1.759,
+          "productCode": 5,
+          "color": "#00FF00"
+        },
+        {
+          "idGasPrices": 64300,
+          "name": "ADBLUE ®",
+          "idTypeProduct": 7,
+          "nameTypeProduct": "AdBlue surtidor",
+          "price": 0.9,
+          "productCode": 7,
+          "color": "#6051E3"
+        },
+        {
+          "idGasPrices": 64301,
+          "name": "S.Plomo 98",
+          "idTypeProduct": 9,
+          "nameTypeProduct": "SPlomo 98",
+          "price": 9.999,
+          "productCode": 9,
+          "color": "#008000"
+        },
+        {
+          "idGasPrices": 64302,
+          "name": "Gasóleo Additive 10",
+          "idTypeProduct": 8,
+          "nameTypeProduct": "Gasóleo A ESP",
+          "price": 1.769,
+          "productCode": 19,
+          "color": "#F5841B"
+        }
+      ],
+      "fuellingPointData": [
+        {
+          "fuelPositionNumber": 1,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1501,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64298,
+            64299,
+            64301,
+            64302
+          ]
+        },
+        {
+          "fuelPositionNumber": 2,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1502,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64298,
+            64299,
+            64301,
+            64302
+          ]
+        },
+        {
+          "fuelPositionNumber": 3,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1503,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64298,
+            64299,
+            64301,
+            64302
+          ]
+        },
+        {
+          "fuelPositionNumber": 4,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1504,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64298,
+            64299,
+            64301,
+            64302
+          ]
+        },
+        {
+          "fuelPositionNumber": 5,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1505,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64298,
+            64302
+          ]
+        },
+        {
+          "fuelPositionNumber": 6,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1506,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64300
+          ]
+        },
+        {
+          "fuelPositionNumber": 7,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1507,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64302
+          ]
+        },
+        {
+          "fuelPositionNumber": 8,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1508,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64302
+          ]
+        },
+        {
+          "fuelPositionNumber": 9,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1509,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64298
+          ]
+        },
+        {
+          "fuelPositionNumber": 10,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1510,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64298
+          ]
+        },
+        {
+          "fuelPositionNumber": 11,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1511,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64300
+          ]
+        },
+        {
+          "fuelPositionNumber": 12,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1512,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64300
+          ]
+        }
+      ],
+      "version": "v002",
+      "phoneAssistance": "",
+      "allowReportBugs": "1"
+    },
+    {
+      "active": "1",
+      "idStation": 171,
+      "idUser": 120,
+      "wsUrl": "https://81.43.127.1:45022",
+      "brand": "BEROIL",
+      "account": "3434138523DS2",
+      "siteId": "4c36240e-dd6b-401e-9ba3-bb1c616d2229",
+      "name": "BEROIL - SANTANDER",
+      "logo": "https://ws.smartfuel.es/images/a9658074-070e-428b-b2b1-b299fc779866.png",
+      "address": "C. Isla Óleo Industrial, 63, 39011 Santander, Cantabria",
+      "latitude": 43.44175,
+      "longitude": -3.847169,
+      "services": {
+        "market": false,
+        "vending": false,
+        "restaurant": false,
+        "wash": false,
+        "automaticWash": false,
+        "manualWash": false,
+        "waterAndAir": true,
+        "toilets": false,
+        "showers": false,
+        "garage": false,
+        "lodgings": false,
+        "wifi": false,
+        "recreationalArea": false,
+        "parking": false,
+        "trucksParking": false,
+        "mobileHomeParking": false
+      },
+      "distanceInKm": 0,
+      "gasData": [
+        {
+          "idGasPrices": 64292,
+          "name": "Gasóleo A",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.699,
+          "productCode": 1,
+          "color": "#C9C000"
+        },
+        {
+          "idGasPrices": 64293,
+          "name": "Sin Plomo 95",
+          "idTypeProduct": 5,
+          "nameTypeProduct": "SPlomo 95",
+          "price": 1.699,
+          "productCode": 5,
+          "color": "#00FF00"
+        }
+      ],
+      "fuellingPointData": [
+        {
+          "fuelPositionNumber": 1,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1601,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64292,
+            64293
+          ]
+        },
+        {
+          "fuelPositionNumber": 2,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1602,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64292,
+            64293
+          ]
+        }
+      ],
+      "version": "v002",
+      "phoneAssistance": "",
+      "allowReportBugs": "1"
+    },
+    {
+      "active": "1",
+      "idStation": 152,
+      "idUser": 120,
+      "wsUrl": "https://37.10.169.57:45022",
+      "brand": "BEROIL",
+      "account": "3434138523DS2",
+      "siteId": "62284a27-332a-4c42-bdbf-e2fd0417f6f4",
+      "name": "BEROIL - SANTECILLA",
+      "logo": "https://ws.smartfuel.es/images/a9658074-070e-428b-b2b1-b299fc779866.png",
+      "address": "Pol. Ind. Santecilla, Parcela 9A, 09585 Santecilla, Burgos",
+      "latitude": 43.160592,
+      "longitude": -3.238844,
+      "services": {
+        "market": false,
+        "vending": false,
+        "restaurant": false,
+        "wash": false,
+        "automaticWash": false,
+        "manualWash": false,
+        "waterAndAir": true,
+        "toilets": false,
+        "showers": false,
+        "garage": false,
+        "lodgings": false,
+        "wifi": false,
+        "recreationalArea": false,
+        "parking": false,
+        "trucksParking": false,
+        "mobileHomeParking": false
+      },
+      "distanceInKm": 0,
+      "gasData": [
+        {
+          "idGasPrices": 64371,
+          "name": "Sin Plomo 95",
+          "idTypeProduct": 5,
+          "nameTypeProduct": "SPlomo 95",
+          "price": 1.759,
+          "productCode": 5,
+          "color": "#00FF00"
+        },
+        {
+          "idGasPrices": 64372,
+          "name": "ADBLUE ®",
+          "idTypeProduct": 7,
+          "nameTypeProduct": "AdBlue surtidor",
+          "price": 0.9,
+          "productCode": 7,
+          "color": "#6051E3"
+        },
+        {
+          "idGasPrices": 64373,
+          "name": "GAS A Camiones",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.759,
+          "productCode": 11,
+          "color": "#C9C000"
+        },
+        {
+          "idGasPrices": 64374,
+          "name": "Gas A",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.759,
+          "productCode": 15,
+          "color": "#F5841B"
+        }
+      ],
+      "fuellingPointData": [
+        {
+          "fuelPositionNumber": 1,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 701,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64371,
+            64373,
+            64374
+          ]
+        },
+        {
+          "fuelPositionNumber": 2,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 702,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64371,
+            64373,
+            64374
+          ]
+        },
+        {
+          "fuelPositionNumber": 3,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 703,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64372
+          ]
+        }
+      ],
+      "version": "v002",
+      "phoneAssistance": "",
+      "allowReportBugs": "1"
+    },
+    {
+      "active": "1",
+      "idStation": 132,
+      "idUser": 120,
+      "wsUrl": "https://81.45.41.199:45022",
+      "brand": "BEROIL",
+      "account": "3434138523DS2",
+      "siteId": "203b4c42-6938-4095-9b83-2f91c92615a3",
+      "name": "BEROIL - VILLALONQUEJAR",
+      "logo": "https://ws.smartfuel.es/images/a9658074-070e-428b-b2b1-b299fc779866.png",
+      "address": "C. López Bravo, 17, 09001 Burgos",
+      "latitude": 42.370723,
+      "longitude": -3.731579,
+      "services": {
+        "market": false,
+        "vending": false,
+        "restaurant": false,
+        "wash": false,
+        "automaticWash": false,
+        "manualWash": false,
+        "waterAndAir": true,
+        "toilets": false,
+        "showers": false,
+        "garage": false,
+        "lodgings": false,
+        "wifi": false,
+        "recreationalArea": false,
+        "parking": false,
+        "trucksParking": false,
+        "mobileHomeParking": true
+      },
+      "distanceInKm": 0,
+      "gasData": [
+        {
+          "idGasPrices": 64342,
+          "name": "Sin Plomo 95",
+          "idTypeProduct": 5,
+          "nameTypeProduct": "SPlomo 95",
+          "price": 1.759,
+          "productCode": 5,
+          "color": "#00FF00"
+        },
+        {
+          "idGasPrices": 64343,
+          "name": "ADBLUE ®",
+          "idTypeProduct": 7,
+          "nameTypeProduct": "AdBlue surtidor",
+          "price": 0.9,
+          "productCode": 7,
+          "color": "#6051E3"
+        },
+        {
+          "idGasPrices": 64344,
+          "name": "GAS A Camiones",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.759,
+          "productCode": 11,
+          "color": "#C9C000"
+        },
+        {
+          "idGasPrices": 64345,
+          "name": "Gas A",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.759,
+          "productCode": 15,
+          "color": "#F5841B"
+        }
+      ],
+      "fuellingPointData": [
+        {
+          "fuelPositionNumber": 1,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 301,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64342,
+            64345
+          ]
+        },
+        {
+          "fuelPositionNumber": 2,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 302,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64342,
+            64345
+          ]
+        },
+        {
+          "fuelPositionNumber": 3,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 303,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64342,
+            64344,
+            64345
+          ]
+        },
+        {
+          "fuelPositionNumber": 4,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 304,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64342,
+            64344,
+            64345
+          ]
+        },
+        {
+          "fuelPositionNumber": 5,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 305,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64343
+          ]
+        },
+        {
+          "fuelPositionNumber": 6,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 306,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64343
+          ]
+        }
+      ],
+      "version": "v002",
+      "phoneAssistance": "",
+      "allowReportBugs": "1"
+    },
+    {
+      "active": "1",
+      "idStation": 200,
+      "idUser": 120,
+      "wsUrl": "https://37.10.176.81:45022",
+      "brand": "BEROIL",
+      "account": "3434138523DS2",
+      "siteId": "03f5ba3e-ea6e-4511-942b-a898f7a48847",
+      "name": "BEROIL MANRESA",
+      "logo": "https://ws.smartfuel.es/images/a9658074-070e-428b-b2b1-b299fc779866.png",
+      "address": "Masia Can Xatino, 24, 08250 Sant Joan de Vilatorrada, B",
+      "latitude": 41.77017,
+      "longitude": 1.7886567,
+      "services": {
+        "market": true,
+        "vending": false,
+        "restaurant": false,
+        "wash": true,
+        "automaticWash": true,
+        "manualWash": false,
+        "waterAndAir": true,
+        "toilets": false,
+        "showers": false,
+        "garage": false,
+        "lodgings": false,
+        "wifi": false,
+        "recreationalArea": false,
+        "parking": false,
+        "trucksParking": false,
+        "mobileHomeParking": false
+      },
+      "distanceInKm": 0,
+      "gasData": [
+        {
+          "idGasPrices": 64375,
+          "name": "Sin Plomo 95",
+          "idTypeProduct": 5,
+          "nameTypeProduct": "SPlomo 95",
+          "price": 1.679,
+          "productCode": 5,
+          "color": "#00FF00"
+        },
+        {
+          "idGasPrices": 64376,
+          "name": "ADBLUE ®",
+          "idTypeProduct": 7,
+          "nameTypeProduct": "AdBlue surtidor",
+          "price": 0.9,
+          "productCode": 7,
+          "color": "#6051E3"
+        },
+        {
+          "idGasPrices": 64377,
+          "name": "GAS A Camiones",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.729,
+          "productCode": 11,
+          "color": "#C9C000"
+        },
+        {
+          "idGasPrices": 64378,
+          "name": "Gas A",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.729,
+          "productCode": 15,
+          "color": "#F5841B"
+        }
+      ],
+      "fuellingPointData": [
+        {
+          "fuelPositionNumber": 1,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1801,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64375,
+            64378
+          ]
+        },
+        {
+          "fuelPositionNumber": 2,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1802,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64375,
+            64378
+          ]
+        },
+        {
+          "fuelPositionNumber": 3,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1803,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64375,
+            64378
+          ]
+        },
+        {
+          "fuelPositionNumber": 4,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1804,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64375,
+            64378
+          ]
+        },
+        {
+          "fuelPositionNumber": 5,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1805,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64377,
+            64378
+          ]
+        },
+        {
+          "fuelPositionNumber": 6,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1806,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64377,
+            64378
+          ]
+        },
+        {
+          "fuelPositionNumber": 7,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1807,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64376
+          ]
+        },
+        {
+          "fuelPositionNumber": 8,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 1808,
+            "major": 52
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64376
+          ]
+        }
+      ],
+      "version": "v002",
+      "phoneAssistance": "",
+      "allowReportBugs": "1"
+    },
+    {
+      "active": "1",
+      "idStation": 163,
+      "idUser": 117,
+      "wsUrl": "https://83.56.1.226:45025",
+      "brand": "GRUPO ASCIA",
+      "account": "3434138523DS2",
+      "siteId": "f1d40242-d9d3-499c-bbbd-c6c27f319cf5",
+      "name": "BP - E.S. ISCHADIA",
+      "logo": "https://ws.smartfuel.es/images/46a40ee1-b413-4cee-9c2f-e9b0ff3e5293.png",
+      "address": "C. Alamo, 49, 28350 Ciempozuelos, Madrid",
+      "latitude": 40.165697,
+      "longitude": -3.630041,
+      "services": {
+        "market": true,
+        "vending": false,
+        "restaurant": true,
+        "wash": true,
+        "automaticWash": true,
+        "manualWash": false,
+        "waterAndAir": false,
+        "toilets": true,
+        "showers": false,
+        "garage": false,
+        "lodgings": false,
+        "wifi": false,
+        "recreationalArea": false,
+        "parking": false,
+        "trucksParking": false,
+        "mobileHomeParking": false
+      },
+      "distanceInKm": 0,
+      "gasData": [
+        {
+          "idGasPrices": 64175,
+          "name": "GASOLEO-A",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.869,
+          "productCode": 1,
+          "color": "#DE180C"
+        },
+        {
+          "idGasPrices": 64176,
+          "name": "Sin Plomo 95",
+          "idTypeProduct": 5,
+          "nameTypeProduct": "SPlomo 95",
+          "price": 1.839,
+          "productCode": 5,
+          "color": "#00FF00"
+        },
+        {
+          "idGasPrices": 64177,
+          "name": "ULTIMATE GOA",
+          "idTypeProduct": 8,
+          "nameTypeProduct": "Gasóleo A ESP",
+          "price": 1.969,
+          "productCode": 7,
+          "color": "#FBFF60"
+        },
+        {
+          "idGasPrices": 64178,
+          "name": "ULTIMATE 98",
+          "idTypeProduct": 18,
+          "nameTypeProduct": "SPlomo 98 ESP",
+          "price": 1.999,
+          "productCode": 10,
+          "color": "#00A941"
+        }
+      ],
+      "fuellingPointData": [
+        {
+          "fuelPositionNumber": 1,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 501,
+            "major": 80
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64175,
+            64176,
+            64177,
+            64178
+          ]
+        },
+        {
+          "fuelPositionNumber": 2,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 502,
+            "major": 80
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64175,
+            64176,
+            64177,
+            64178
+          ]
+        },
+        {
+          "fuelPositionNumber": 3,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 503,
+            "major": 80
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64175,
+            64176,
+            64177,
+            64178
+          ]
+        },
+        {
+          "fuelPositionNumber": 4,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 504,
+            "major": 80
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64175,
+            64176,
+            64177,
+            64178
+          ]
+        },
+        {
+          "fuelPositionNumber": 5,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 505,
+            "major": 80
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64175,
+            64176,
+            64177,
+            64178
+          ]
+        },
+        {
+          "fuelPositionNumber": 6,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 506,
+            "major": 80
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64175,
+            64176,
+            64177,
+            64178
+          ]
+        }
+      ],
+      "version": "v002",
+      "phoneAssistance": "",
+      "allowReportBugs": "1"
+    },
+    {
+      "active": "1",
+      "idStation": 165,
+      "idUser": 117,
+      "wsUrl": "https://83.56.1.226:45027",
+      "brand": "GRUPO ASCIA",
+      "account": "3434138523DS2",
+      "siteId": "39ee94b0-e3e4-43ba-a87c-e4a85b721e4d",
+      "name": "BP - E.S. LA BASTIDA",
+      "logo": "https://ws.smartfuel.es/images/46a40ee1-b413-4cee-9c2f-e9b0ff3e5293.png",
+      "address": "C. Pagesia, 2, 08191 Rubí, Barcelona",
+      "latitude": 41.50792,
+      "longitude": 2.038415,
+      "services": {
+        "market": true,
+        "vending": false,
+        "restaurant": true,
+        "wash": true,
+        "automaticWash": false,
+        "manualWash": false,
+        "waterAndAir": true,
+        "toilets": true,
+        "showers": false,
+        "garage": false,
+        "lodgings": false,
+        "wifi": false,
+        "recreationalArea": false,
+        "parking": false,
+        "trucksParking": false,
+        "mobileHomeParking": false
+      },
+      "distanceInKm": 0,
+      "gasData": [
+        {
+          "idGasPrices": 64127,
+          "name": "GASOLEO-A",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.869,
+          "productCode": 1,
+          "color": "#DE180C"
+        },
+        {
+          "idGasPrices": 64128,
+          "name": "Sin Plomo 95",
+          "idTypeProduct": 5,
+          "nameTypeProduct": "SPlomo 95",
+          "price": 1.849,
+          "productCode": 5,
+          "color": "#00FF00"
+        },
+        {
+          "idGasPrices": 64129,
+          "name": "ULTIMATE GOA",
+          "idTypeProduct": 8,
+          "nameTypeProduct": "Gasóleo A ESP",
+          "price": 1.959,
+          "productCode": 7,
+          "color": "#FBFF60"
+        },
+        {
+          "idGasPrices": 64130,
+          "name": "S.Plomo 98",
+          "idTypeProduct": 9,
+          "nameTypeProduct": "SPlomo 98",
+          "price": 1.989,
+          "productCode": 9,
+          "color": "#008000"
+        }
+      ],
+      "fuellingPointData": [
+        {
+          "fuelPositionNumber": 1,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 201,
+            "major": 80
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64127,
+            64128,
+            64129,
+            64130
+          ]
+        },
+        {
+          "fuelPositionNumber": 2,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 202,
+            "major": 80
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64127,
+            64128,
+            64129,
+            64130
+          ]
+        },
+        {
+          "fuelPositionNumber": 3,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 203,
+            "major": 80
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64127,
+            64128,
+            64129,
+            64130
+          ]
+        },
+        {
+          "fuelPositionNumber": 4,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 204,
+            "major": 80
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64127,
+            64128,
+            64129,
+            64130
+          ]
+        },
+        {
+          "fuelPositionNumber": 5,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 205,
+            "major": 80
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64127,
+            64128,
+            64129,
+            64130
+          ]
+        },
+        {
+          "fuelPositionNumber": 6,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 206,
+            "major": 80
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64127,
+            64128,
+            64129,
+            64130
+          ]
+        },
+        {
+          "fuelPositionNumber": 7,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 207,
+            "major": 80
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64127,
+            64128,
+            64129,
+            64130
+          ]
+        },
+        {
+          "fuelPositionNumber": 8,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 208,
+            "major": 80
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            64127,
+            64128,
+            64129,
+            64130
+          ]
+        }
+      ],
+      "version": "v002",
+      "phoneAssistance": "",
+      "allowReportBugs": "1"
+    },
+    {
+      "active": "1",
+      "idStation": 162,
+      "idUser": 117,
+      "wsUrl": "https://83.56.1.226:45023",
+      "brand": "GRUPO ASCIA",
+      "account": "3434138523DS2",
+      "siteId": "7213cfd3-99ab-4bb1-b300-2ecd46f85132",
+      "name": "BP - E.S. LA FIRA",
+      "logo": "https://ws.smartfuel.es/images/46a40ee1-b413-4cee-9c2f-e9b0ff3e5293.png",
+      "address": "C. de la Botànica, 21, 08908 L'Hospitalet de Llobregat, Barcelona",
+      "latitude": 41.352776,
+      "longitude": 2.13371,
+      "services": {
+        "market": true,
+        "vending": false,
+        "restaurant": true,
+        "wash": true,
+        "automaticWash": false,
+        "manualWash": false,
+        "waterAndAir": true,
+        "toilets": true,
+        "showers": false,
+        "garage": false,
+        "lodgings": false,
+        "wifi": false,
+        "recreationalArea": false,
+        "parking": false,
+        "trucksParking": false,
+        "mobileHomeParking": false
+      },
+      "distanceInKm": 0,
+      "gasData": [
+        {
+          "idGasPrices": 63898,
+          "name": "GASOLEO-A",
+          "idTypeProduct": 1,
+          "nameTypeProduct": "Gasóleo A",
+          "price": 1.889,
+          "productCode": 1,
+          "color": "#DE180C"
+        },
+        {
+          "idGasPrices": 63899,
+          "name": "Sin Plomo 95",
+          "idTypeProduct": 5,
+          "nameTypeProduct": "SPlomo 95",
+          "price": 1.879,
+          "productCode": 5,
+          "color": "#00FF00"
+        },
+        {
+          "idGasPrices": 63900,
+          "name": "AdBlue",
+          "idTypeProduct": 7,
+          "nameTypeProduct": "AdBlue surtidor",
+          "price": 1.59,
+          "productCode": 6,
+          "color": "#000000"
+        },
+        {
+          "idGasPrices": 63901,
+          "name": "ULTIMATE GOA",
+          "idTypeProduct": 8,
+          "nameTypeProduct": "Gasóleo A ESP",
+          "price": 1.999,
+          "productCode": 7,
+          "color": "#FBFF60"
+        },
+        {
+          "idGasPrices": 63902,
+          "name": "S.Plomo 98",
+          "idTypeProduct": 9,
+          "nameTypeProduct": "SPlomo 98",
+          "price": 1.999,
+          "productCode": 9,
+          "color": "#008000"
+        }
+      ],
+      "fuellingPointData": [
+        {
+          "fuelPositionNumber": 1,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 101,
+            "major": 80
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            63898,
+            63899,
+            63901,
+            63902
+          ]
+        },
+        {
+          "fuelPositionNumber": 2,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 102,
+            "major": 80
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            63898,
+            63899,
+            63901,
+            63902
+          ]
+        },
+        {
+          "fuelPositionNumber": 3,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 103,
+            "major": 80
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            63898,
+            63899,
+            63901,
+            63902
+          ]
+        },
+        {
+          "fuelPositionNumber": 4,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 104,
+            "major": 80
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            63898,
+            63899,
+            63901,
+            63902
+          ]
+        },
+        {
+          "fuelPositionNumber": 5,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 105,
+            "major": 80
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            63898,
+            63899,
+            63901,
+            63902
+          ]
+        },
+        {
+          "fuelPositionNumber": 6,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 106,
+            "major": 80
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            63898,
+            63899,
+            63901,
+            63902
+          ]
+        },
+        {
+          "fuelPositionNumber": 7,
+          "beacon": {
+            "uuid": "d9767cf0-cac2-4cc3-9ca2-4f2b817fd98a",
+            "minor": 107,
+            "major": 80
+          },
+          "qrCode": null,
+          "fuelGrades": [
+            63900
+          ]
+        }
+      ],
+      "version": "v002",
+      "phoneAssistance": "",
+      "allowReportBugs": "1"
+    }
+  ]
+}
